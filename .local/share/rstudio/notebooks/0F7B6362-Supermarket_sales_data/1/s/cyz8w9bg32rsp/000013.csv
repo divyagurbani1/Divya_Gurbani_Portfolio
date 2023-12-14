@@ -1,0 +1,2 @@
+"0","ggplot(data=sales_data) + geom_point(mapping= aes(x=Sales, y=Profit, color=Discount))+"
+"0","  facet_wrap(~Category)+labs(title=""Category-wise sales and prfoits (2015-18)"")"

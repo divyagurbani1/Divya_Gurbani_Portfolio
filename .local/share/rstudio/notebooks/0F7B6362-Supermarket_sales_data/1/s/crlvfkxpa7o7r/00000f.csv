@@ -1,0 +1,2 @@
+"0","library(readr)"
+"0","Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv(""Downloads/Supermart Grocery Sales - Retail Analytics Dataset.csv"", show_col_types = FALSE)"

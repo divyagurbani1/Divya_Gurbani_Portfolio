@@ -1,0 +1,28 @@
+{
+    "id": "5072F611",
+    "path": "~/Supermarket_sales_data.Rmd",
+    "project_path": null,
+    "type": "r_markdown",
+    "hash": "3601065121",
+    "contents": "",
+    "dirty": false,
+    "created": 1702540587745.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "151,19",
+        "scrollLine": "282",
+        "last_setup_crc32": "47266358bb338d19"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1701762611,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1702543039151,
+    "read_only": false,
+    "read_only_alternatives": []
+}

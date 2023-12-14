@@ -1,0 +1,2759 @@
+1699263375187:print("Hello world")
+1699263386656:1+2
+1699263397432:q()
+1699263779860:demo()
+1699264260439:print("hello world")
+1699264265925:3_1
+1699264271595:3-1
+1699264279359:demo()
+1699265877379:citation()
+1699344450359:install.packages("palmerpenguins")
+1699347661968:install.packages("tidyverse")
+1699348070144:View(penguins)
+1699362369634:print("coding in R")
+1699362384603:?print()
+1699362428021:?facet()
+1699362666630:# here is an example of variable
+1699362688287:first_variable <- "this is my variable"
+1699362769655:second_variable <- 19.4
+1699362973650:vec_1(10,14.5,11,39.0)
+1699362985020:vec_1 <- (10,14.5,11,39.0)
+1699362995076:vec_1 <- ("10,14.5,11,39.0")
+1699363029026:vec_1
+1699371634760:typeof(c("asa","divya"."ria"))
+1699371651472:ypeof(c("asa","divya"."ria"))
+1699371667328:typeof(c("asa","divya","ria"))
+1699371683885:typeof(c("1,3.4,4.5"))
+1699371722663:typeof(c("1L,3.4L,4.5L"))
+1699371761025:typeof(c(34,5.5,7.8))
+1699371776694:typeof(c(34L,5.5L,7.8L))
+1699371791567:typeof(c(34L,5L,7.8L))
+1699371810638:typeof(c(34L,5L,7L))
+1699371860727:x <- c(1,2,3,4)
+1699371868922:length(x)
+1699371942545:x <- (c(34L,5.5L,7.8L))
+1699371952678:x <- c(34L,5.5L,7.8L)
+1699371971168:x <- c(34,5.5,7.8)
+1699371978663:is.logical(x)
+1699371984696:is.double(x)
+1699371991176:is.character(x)
+1699371996691:is.array(x)
+1699372097875:x <- (23,45,50)
+1699372108274:x <- c(23,45,50)
+1699372178088:names(x)<- c("M1", "M2", "M3")
+1699372204348:x
+1699372250605:x <- c("Eng", "Hindi", "French")
+1699372287870:names(x) <- c("Div1", "Div2", "Div3")
+1699372289366:x
+1699372859502:list("a","sd,"12","34.6")
+1699372872747:list("a","sd","12","34.6")
+1699372893721:list(list(list("a","sd","12","34.6")))
+1699372903648:str(list("a","sd","12","34.6"))
+1699372922293:str(list("a", 1L, 1.5, TRUE))
+1699372995619:str(list(list(list("a","sd","12","34.6"))))
+1699373081927:list('Divya' = 1, 'Jigeesha' = 2, 'friya = 2')
+1699426655064:install.packages("tidyverse")
+1699426691310:install("lubridate")
+1699426704324:install.packages("lubridate")
+1699427145320:library(tidyverse)
+1699427153398:library(lubridate)
+1699427760508:today()
+1699427764232:now()
+1699428221102:ymd(2023-3-23)
+1699428231976:ymd("2023-3-23")
+1699428256643:ymd("2023-january,4")
+1699428281859:dmy("20-dec-2024")
+1699428303809:ymd(2010230)
+1699428324296:ymd(20100230)
+1699428344670:ymd(20100630)
+1699428487357:now()
+1699428504955:as_date(now())
+1699444029459:data()
+1699444207221:read.table()
+1699444300556:write.csv(data, "data1.csv", row.names = FALSE)
+1699446030027:matric(c(5:10), nrow = 2)
+1699446043548:matrix(c(5:10), nrow = 2)
+1699446599304:sales_1 <- c(87.00,45,67,34,89)
+1699446605630:sales_1
+1699446706458:#our first calculations
+1699446727468:quarter_1_sales <- 237.98
+1699446743121:quarter_2_sales <- 45.09
+1699446802619:midyear_sales <- quarter_1_sales+quarter_2_sales
+1699446885872:midyear_sales
+1699446937330:year_end_sales <- midyear_sales*2
+1699446943969:year_end_sales
+1699509168977:if(x>3 & x<12)
+1699509179584:print(x)
+1699509187424:if(x>3 & x<12)
+1699509188881:10
+1699509314345:x <- 10
+1699509329706:x>3 & x<12
+1699509360727:x>3 | x<1
+1699510981920:install.packages("styler")
+1699525370568:installed.packages()
+1699529281235:browseVignettes("ggplot2")
+1699530280174:View(ToothGrowth)
+1699530349875:install.packages("dplyr")
+1699530376994:install.packages("dplyr")
+1699599249589:install.packages("dplyr")
+1699599351100:View(filtered_tg)
+1699599489686:filtered_tg <- filter(ToothGrowth, dose==0.5)
+1699599510220:View(ToothGrowth)
+1699599529001:filtered_tg <- filter(ToothGrowth, dose==0.5)
+1699599555652:filtered_tg <- filter(ToothGrowth, dose==0.5)
+1699599594481:filtered_tg <- filter(ToothGrowth, dose==0.5)
+1699599606080:filtered_tg <- filter(ToothGrowth, dose == 0.5)
+1699599627118:filtered_tg <- filter(ToothGrowth, len == 11.2)
+1699599727618:data("ToothGrowth")
+1699599745617:View(ToothGrowth)
+1699602389551:library(ggplot2)
+1699602427693:install.packages("tidyverse")
+1699602439168:library(ggplot2)
+1699602472009:View(diamonds)
+1699602524775:head(diamonds)
+1699602549426:str(diamonds)
+1699602555832:colnames(diamnonds)
+1699602570058:colnames(diamonds)
+1699602617277:library(tidyverse)
+1699602660448:mutate(diamonds, carat_2=carat*100)
+1699608987849:install.packages("here")
+1699609009320:library(here)
+1699609076416:install("skimr")
+1699609094867:install.packages("skimr")
+1699609122682:install.packages("janitor")
+1699609138678:library(skimr)
+1699609144588:library(janitor)
+1699609174671:install.packages("dplyr")
+1699609248135:install.packages("palmerpenguins")
+1699609265475:library(palmerpenguins)
+1699609352844:skim_without_charts(penguins)
+1699609393734:glimpse(penguins)
+1699609411267:head(penguins)
+1699609470293:penguins %>%
+1699609470294:select(species)
+1699609490149:penguins %>%
+1699609490150:select(-species)
+1699609554843:penguins %>%
+1699609554845:rename(island_new=island)
+1699609684349:rename_with(penguins, toupper)
+1699609697609:rename_with(penguins, tolower)
+1699609736975:clean_names(penguins)
+1699613956186:library(tidyverse)
+1699613985178:penguins %>% arrange(bill_length_mm)
+1699614040322:penguins %>% arrange(-bill_length_mm)
+1699614061812:penguins2 <- penguins %>% arrange(-bill_length_mm)
+1699614072484:View(penguins2)
+1699614175935:penguins %>%
+1699614190613:group_by(islands) %>%
+1699614208868:drop_na() %>%
+1699614252755:summarize(mean_bill_length = mean(bill_length_mm))
+1699614274780:penguins %>%
+1699614274780:+ group_by(island) %>%
+1699614274781:+ drop_na() %>%
+1699614274781:+ summarize(mean_bill_length = mean(bill_length_mm))
+1699614359626:penguins %>% group_by(island) %>% drop_na() %>% summarize(mean_bill_length = mean(bill_length_mm))
+1699614382050:penguins %>% group_by(island) %>% drop_na() %>% summarize(mean_bill_length = max(bill_length_mm))
+1699614510959:penguins %>% groub_by(island, species) %>% drop_na() %>% summarize(max_bl=max(bill_length_mm), mean_bl=mean(bill_length_mm))
+1699614540129:penguins %>% groub_by(species, island) %>% drop_na() %>% summarize(max_bl=max(bill_length_mm), mean_bl=mean(bill_length_mm))
+1699614552691:penguins %>% group_by(species, island) %>% drop_na() %>% summarize(max_bl=max(bill_length_mm), mean_bl=mean(bill_length_mm))
+1699614612571:penguins %>% filter(species == "Adelie")
+1699617073944:id <- c(1:10)
+1699617128024:name <- c("John Mendes", "Rob Stewart", "Rachel Abrahamson", "Christy Hickman", "Johnson Harper", "Candace Miller", "Carlson Landy", "Pansy Jordan", "Darius Berry", "Claudia Garcia")
+1699617134819:job_title <- c("Professional", "Programmer", "Management", "Clerical", "Developer", "Programmer", "Management", "Clerical", "Developer", "Programmer")
+1699617161071:employee <- data.frame(id, name, job_title)
+1699617315996:id <- c(1:10)
+1699617315997:name <- c("John Mendes", "Rob Stewart", "Rachel Abrahamson", "Christy Hickman", "Johnson Harper", "Candace Miller", "Carlson Landy", "Pansy Jordan", "Darius Berry", "Claudia Garcia")
+1699617315998:job_title <- c("Professional", "Programmer", "Management", "Clerical", "Developer", "Programmer", "Management", "Clerical", "Developer", "Programmer")
+1699617315998:employee <- data.frame(id, name, job_title)
+1699617398225:print(employee)
+1699617478456:separate(employee, name, into=c("first_name", "last_name")sep=" ")
+1699617611058:separate(employee, name,into=c('first_name', 'last_name'),sep=' ')
+1699617678993:first_name <- c("John", "Rob", "Rachel", "Christy", "Johnson", "Candace", "Carlson", "Pansy", "Darius", "Claudia")
+1699617678996:last_name <- c("Mendes", "Stewart", "Abrahamson", "Hickman", "Harper", "Miller", "Landy", "Jordan", "Berry", "Garcia")
+1699617678996:job_title <- c("Professional", "Programmer", "Management", "Clerical", "Developer", "Programmer", "Management", "Clerical", "Developer", "Programmer")
+1699617678996:employee <- data.frame(id, first_name, last_name, job_title)
+1699617678999:print(employee)
+1699617778555:unite(employee, 'name','first_name','last_name',sep=' ')
+1699617833887:View(penguins)
+1699617871700:penguins %>%
+1699617871702:mutate(body_mass_kg=body_mass_g/1000)
+1699617915623:penguins %>%
+1699617915625:mutate(body_mass_kg=body_mass_g/1000, flipper_length_m=flipper_length_mm/1000)
+1699693392492:install.packages("Tmisc")
+1699693424040:library(tmisc)
+1699693435588:library(Timsc)
+1699693442151:library(Tmisc)
+1699693453416:data(quartet)
+1699693459170:View(quartet)
+1699693527296:quartet %>%
+1699693545638:groub_by(set) %>%
+1699693601006:summarize(mean(x),sd(x),mean(y),sd(y),cor(x,y))
+1699693615290:quartet %>%
+1699693615291:+ group_by(set) %>%
+1699693615292:+ summarize(mean(x),sd(x),mean(y),sd(y),cor(x,y))
+1699693683469:install.packages("Tmisc")
+1699693771160:quartet %>%
+1699693771162:group_by(set) %>%
+1699693771162:summarize(mean(x),sd(x),mean(y),sd(y),cor(x,y))
+1699693970586:ggplot(quartet, aes(x,y)) + geom_point() + geom_smooth(method=1m, se = FALSE) + facet_wrap(~set)
+1699694003935:ggplot(quartet,aes(x,y)) + geom_point() + geom_smooth(method=1m, se=FALSE) + facet_wrap(~set)
+1699694102431:install.packages('datasauRus')
+1699694255457:library(datasauRus)
+1699694255478:ggplot(datasaurus_dozen,aes(x=x,y=y,color=dataset))+geom_point()+theme_void()+theme(legend.position = "none")+facet_wrap(~dataset,ncol=3)
+1699694292808:ggplot(quartet,aes(x,y)) + geom_point() + geom_smooth(method=1m, se=FALSE) + facet_wrap(~set)
+1699695023911:install.packages("SimDesign")
+1699695141777:library(SimDesign)
+1699695141924:actual_temp <- c(69,70,72.5,68.9)
+1699695141925:predicted_temp <- c(69.1,69.8,71.7,67.5)
+1699695141925:bias(actual_temp,predicted_temp)
+1699695375786:data.frame(1,2,3,4,5)
+1699870066994:install.packages("ggplot2")
+1699870098250:install.packages("palmerpenguins")
+1699870128466:library(ggplot2)
+1699870128469:library(palmerpenguins)
+1699870162881:data(penguins)
+1699870162890:View(penguins)
+1699870397670:library(ggplot2)
+1699870397672:library(palmerpenguins)
+1699870397673:data(penguins)
+1699870397680:View(penguins)
+1699870397687:ggplot(data=penguins) + geom_point(mapping = aes(x=flipper_length_mm, y=body_mass_g))
+1699870652581:ggplot(data=penguins) + geom_bar(mapping = aes(x=species, y=body_mass_g))
+1699870703767:ggplot(data=penguins, mapping = aes(x=species, y=body_mass_g) + geom_bar()
+1699870741361:ggplot(data=penguins, aes(x=species, y=body_mass_g) + geom_bar()
+1699871415828:?geom_bar
+1699877091303:ggplot(data=penguins) + geom_point(mapping = aes(x=flipper_length_mm, y=body_mass_g, color=species))
+1699877134507:ggplot(data=penguins) + geom_point(mapping = aes(x=flipper_length_mm, y=body_mass_g, shape=species))
+1699877164637:ggplot(data=penguins) + geom_point(mapping = aes(x=flipper_length_mm, y=body_mass_g, shape=species, color=species))
+1699877182037:ggplot(data=penguins) + geom_point(mapping = aes(x=flipper_length_mm, y=body_mass_g, shape=species, color=species, size=species))
+1699877280404:ggplot(data=penguins) + geom_point(mapping = aes(x=flipper_length_mm, y=body_mass_g, shape=species) color="species"red")
+1699877297723:ggplot(data=penguins) + geom_point(mapping = aes(x=flipper_length_mm, y=body_mass_g, shape=species), color="species"red")
+1699877318956:ggplot(data=penguins) + geom_point(mapping = aes(x=flipper_length_mm, y=body_mass_g, shape=species), color="red")
+1699877763470:ggplot(data = penguins) + geom_smooth(mapping = aes(x=flipper_length_mm, y=bod_mass_g))
+1699877776086:ggplot(data = penguins) + geom_smooth(mapping = aes(x=flipper_length_mm, y=body_mass_g))
+1699877865201:ggplot(data = penguins) + geom_smooth(mapping = aes(x=flipper_length_mm, y=body_mass_g)) +
+1699877865202:geom_point(mapping = aes(x=flipper_length_mm, y=body_mass_g))
+1699877899050:ggplot(data = penguins) + geom_smooth(mapping = aes(x=flipper_length_mm, y=body_mass_g, linetype=species)) +
+1699877899051:geom_point(mapping = aes(x=flipper_length_mm, y=body_mass_g))
+1699877994669:ggplot(data = penguins) +
+1699877994671:geom_jitter(mapping = aes(x=flipper_length_mm, y=body_mass_g))
+1699878071249:ggplot(data = diamonds) +
+1699878071250:geom_bar(mapping = aes(x=cut))
+1699878141916:ggplot(data = penguins) +
+1699878141917:geom_bar(mapping = aes(x=species))
+1699878149133:ggplot(data = diamonds) +
+1699878149135:geom_bar(mapping = aes(x=cut))
+1699878216431:ggplot(data = diamonds) +
+1699878216432:geom_bar(mapping = aes(x=cut, color=cut))
+1699878247081:ggplot(data = diamonds) +
+1699878247082:geom_bar(mapping = aes(x=cut, fill=cut))
+1699878267945:ggplot(data = diamonds) +
+1699878267946:geom_bar(mapping = aes(x=cut, fill=clarity)
+1699878274037:ggplot(data = diamonds) +
+1699878300668:ggplot(data = diamonds) +
+1699878300669:geom_bar(mapping = aes(x=cut,fill=clarity)
+1699878321499:ggplot(data = diamonds) +
+1699878341982:ggplot(data = diamonds) +
+1699878341983:geom_bar(mapping=aes(x=cut,fill=clarity)
+1699878360347:ggplot(data = diamonds) +
+1699878368500:ggplot(data = diamonds) +
+1699878368500:geom_bar(mapping=aes(x=cut,fill=clarity))
+1699879840339:ggplot(penguins, aes(x=flipper_length_mm, y=body_mass_g)) +
+1699879840349:geom_point() + geom_smooth()
+1699879996865:ggplot(penguins, aes(x=flipper_length_mm, y=body_mass_g)) +
+1699879996866:geom_point() + geom_smooth(method = "loess")
+1699880461883:ggplot(penguins, aes(x=flipper_length_mm, y=body_mass_g)) +
+1699880461886:geom_point(aes(color=species)) +
+1699880461886:facet_wrap(~species)
+1699880575480:ggplot(data = diamonds) +
+1699880575481:geom_bar(mapping=aes(x=cut,fill=clarity))+
+1699880575481:facet_wrap(~cut)
+1699880748484:ggplot(data = diamonds) +
+1699880748486:geom_bar(mapping=aes(x=cut,fill=clarity))+
+1699880748486:facet_wrap(~cut)
+1699880773081:ggplot(data = diamonds) +
+1699880773082:geom_bar(mapping=aes(x=cut,fill=clarity)) +
+1699880773082:facet_wrap(~cut)
+1699880821396:ggplot(data = diamonds) +
+1699880821399:geom_bar(mapping=aes(x=cut,fill=cut)) +
+1699880821399:facet_wrap(~cut)
+1699882626062:ggplot(penguins, aes(x=flipper_length_mm, y=body_mass_g)) +
+1699882626071:geom_point(aes(color=species)) +
+1699882626071:facet_grid(sex~species)
+1699882663494:ggplot(penguins, aes(x=flipper_length_mm, y=body_mass_g)) +
+1699882663496:geom_point(aes(color=species)) +
+1699882663496:facet_grid(~species)
+1699951528836:ggplot(penguins, aes(x=flipper_length_mm, y=body_mass_g))+
+1699951528846:geom_point(aes(color=species)) + labs(title = "Penguins: Body Mass VS Flipper Length")
+1699951597591:ggplot(penguins, aes(x=flipper_length_mm, y=body_mass_g))+
+1699951597594:geom_point(aes(color=species)) + labs(title = "Penguins: Body Mass VS Flipper Length", subtitle = "Sample of three penguin species")
+1699951671693:ggplot(penguins, aes(x=flipper_length_mm, y=body_mass_g))+
+1699951671695:geom_point(aes(color=species)) + labs(title = "Penguins: Body Mass VS Flipper Length", subtitle = "Sample of three penguin species", caption = "Data collected by Dr, Kristen Gorman")
+1699951817291:ggplot(penguins, aes(x=flipper_length_mm, y=body_mass_g))+
+1699951817292:geom_point(aes(color=species)) + labs(title = "Penguins: Body Mass VS Flipper Length", subtitle = "Sample of three penguin species", caption = "Data collected by Dr, Kristen Gorman")+
+1699951817293:annotate("text", x=220, y=3500, label="The Gentoos are the largest")
+1699951856940:ggplot(penguins, aes(x=flipper_length_mm, y=body_mass_g))+
+1699951856942:geom_point(aes(color=species)) + labs(title = "Penguins: Body Mass VS Flipper Length", subtitle = "Sample of three penguin species", caption = "Data collected by Dr, Kristen Gorman")+
+1699951856942:annotate("text", x=220, y=3500, label="The Gentoos are the largest", color="Purple")
+1699951893375:ggplot(penguins, aes(x=flipper_length_mm, y=body_mass_g))+
+1699951893376:geom_point(aes(color=species)) + labs(title = "Penguins: Body Mass VS Flipper Length", subtitle = "Sample of three penguin species", caption = "Data collected by Dr, Kristen Gorman")+
+1699951893376:annotate("text", x=220, y=3500, label="The Gentoos are the largest", color="Purple", fontface="bold", size=5)
+1699951933430:ggplot(penguins, aes(x=flipper_length_mm, y=body_mass_g))+
+1699951933432:geom_point(aes(color=species)) + labs(title = "Penguins: Body Mass VS Flipper Length", subtitle = "Sample of three penguin species", caption = "Data collected by Dr, Kristen Gorman")+
+1699951933432:annotate("text", x=220, y=3500, label="The Gentoos are the largest", color="Purple", fontface="bold", size=5, angle = 20)
+1699952494864:ggplot(penguins, aes(x=flipper_length_mm, y=body_mass_g, color=species))+geom_point()
+1699956457301:install.packages("rmarkdown")
+1700035262859:install.packages("vitae")
+1700035284747:library(vitae)
+1700035605870:install.packages("latex")
+1700210191209:source("~/BellaBeat Data Analysis.R")
+1700210213556:install.packages("readr")
+1700210226297:library(readr)
+1700210339817:read_excel()
+1700210351897:readxl_example()
+1700210361652:install.packages("readxl")
+1700210369719:library(readxl)
+1700210382878:readxl_example()
+1700210454717:read_excel(readxl_example("clippy.xls"))
+1700210491342:read_excel(readxl_example("type-me.xlsx"), sheet = "numeric_coercion")
+1700210620564:install.packages("tidyverse")
+1700210622390:install.packages("readr")
+1700210622390:install.packages("dplyr")
+1700210623689:install.packages("skimr")
+1700210625248:install.packages("janitor")
+1700210637902:install.packages("readr")
+1700210705878:library(tidyverse)
+1700210706646:library(readr)
+1700210706646:library(dplyr)
+1700210706647:library(skimr)
+1700210706707:library(janitor)
+1700210802408:daily_activity <- read.csv("daily_activity.csv")
+1700210993199:library(readr)
+1700210993200:daily_activity <- read_csv("Desktop/Fitbit data set/Fitabase Data 4.12.16-5.12.16/daily_activity.csv")
+1700210993418:View(daily_activity)
+1700211031487:library(readr)
+1700211031489:daily_calories <- read_csv("Desktop/Fitbit data set/Fitabase Data 4.12.16-5.12.16/daily_calories.csv")
+1700211031580:View(daily_calories)
+1700211098848:library(readr)
+1700211098849:daily_intensities <- read_csv("Desktop/Fitbit data set/Fitabase Data 4.12.16-5.12.16/daily_intensities.csv")
+1700211098939:View(daily_intensities)
+1700211132786:library(readr)
+1700211132787:daily_Steps <- read_csv("Desktop/Fitbit data set/Fitabase Data 4.12.16-5.12.16/daily_Steps.csv")
+1700211132892:View(daily_Steps)
+1700211220574:daily_steps <- daily_Steps ## In accordance with other file names
+1700211232630:View(daily_steps)
+1700211718773:library(readr)
+1700211718774:heartrate_seconds <- read_csv("Desktop/Fitbit data set/Fitabase Data 4.12.16-5.12.16/heartrate_seconds.csv")
+1700211720509:View(heartrate_seconds)
+1700211743238:library(readr)
+1700211743240:hourly_calories <- read_csv("Desktop/Fitbit data set/Fitabase Data 4.12.16-5.12.16/hourly_calories.csv")
+1700211743331:View(hourly_calories)
+1700211770771:library(readr)
+1700211770773:hourly_intensities <- read_csv("Desktop/Fitbit data set/Fitabase Data 4.12.16-5.12.16/hourly_intensities.csv")
+1700211770863:View(hourly_intensities)
+1700211790838:library(readr)
+1700211790840:hourly_steps <- read_csv("Desktop/Fitbit data set/Fitabase Data 4.12.16-5.12.16/hourly_steps.csv")
+1700211790932:View(hourly_steps)
+1700212150394:head(daily_activity)
+1700212175900:colnames(daily_activity)
+1700212211486:library(readr)
+1700212211487:sleep_day <- read_csv("Desktop/Fitbit data set/Fitabase Data 4.12.16-5.12.16/sleep_day.csv")
+1700212211573:View(sleep_day)
+1700212229711:head(sleep_day)
+1700212277712:colnames(sleep_day)
+1700212362832:n_distinct(daily_activity$Id)
+1700212362833:n_distinct(sleep_day_activity$Id)
+1700212374179:n_distinct(daily_activity$Id)
+1700212374180:n_distinct(sleep_day$Id)
+1700212459262:n_row(daily_activity)
+1700212477645:nrow(daily_activity)
+1700212477647:nrow(sleep_day)
+1700212560027:daily_activity %>%
+1700212560029:select(TotalSteps, TotalDistance, SedentaryMinutes) %>%
+1700212560029:summary()
+1700212635360:sleep_day %>%
+1700212635361:select(TotalSleepRecords, TotalMinutesAsleep, TotalTimeInBed) %>%
+1700212635361:summarize()
+1700212658128:sleep_day %>%
+1700212658129:select(TotalSleepRecords, TotalMinutesAsleep, TotalTimeInBed) %>%
+1700212658129:summarize()
+1700212687343:sleep_day %>%
+1700212687344:select(TotalSleepRecords, TotalMinutesAsleep, TotalTimeInBed) %>%
+1700212687344:summarize()
+1700212896941:ggplot(data = daily_activity, aes(x=TotalSteps, y=SedentaryMinutes)) + geom_point()
+1700212928742:ggplot(data = daily_activity, aes(x=TotalSteps, y=SedentaryMinutes)) + geom_point() + geom_smooth()
+1700213044073:ggplot(data = sleep_day, aes(x=TotalMinutesAsleep, y=TotalTimeInBed)) + geom_point() + geom_smooth()
+1700213130403:combined_data <- merge(sleep_day, daily_activity, by="Id")
+1700213147474:head(combined_data)
+1700213181155:n_distinct(combined_data)
+1700213294790:combined_data_2 <- merge(sleep_day, daily_activity, by="Id", all = TRUE)
+1700213312938:n_distinct(combined_data_2)
+1700217921701:colnames(daily_activity)
+1700218155315:head(daily_activity)
+1700218182604:View(daily_activity)
+1700218228048:View(sleep_day)
+1700218236891:View(daily_calories)
+1700218257873:View(heartrate_seconds)
+1700218979414:n_distinct(daily_calories)
+1700219256424:head(sleep_day)
+1700219726205:View(minute_sleep)
+1700219790240:minutes_calories_narrow <- read_csv("Desktop/Fitbit data set/Fitabase Data 4.12.16-5.12.16/minutes_calories_narrow.csv")
+1700219818388:library(readr)
+1700219818390:minute_calories_narrow <- read_csv("Desktop/Fitbit data set/Fitabase Data 4.12.16-5.12.16/minute_calories_narrow.csv")
+1700219819265:View(minute_calories_narrow)
+1700219827695:library(readr)
+1700219827696:hourly_steps <- read_csv("Desktop/Fitbit data set/Fitabase Data 4.12.16-5.12.16/hourly_steps.csv")
+1700219827790:View(hourly_steps)
+1700219846862:library(readr)
+1700219846862:minute_intensities_narrow <- read_csv("Desktop/Fitbit data set/Fitabase Data 4.12.16-5.12.16/minute_intensities_narrow.csv")
+1700219847491:View(minute_intensities_narrow)
+1700219852131:library(readr)
+1700219852132:minute_intensitiesWide <- read_csv("Desktop/Fitbit data set/Fitabase Data 4.12.16-5.12.16/minute_intensitiesWide.csv")
+1700219852317:View(minute_intensitiesWide)
+1700219858594:library(readr)
+1700219858595:minute_METsNarrow <- read_csv("Desktop/Fitbit data set/Fitabase Data 4.12.16-5.12.16/minute_METsNarrow.csv")
+1700219859276:View(minute_METsNarrow)
+1700219874863:library(readr)
+1700219874864:minute_sleep <- read_csv("Desktop/Fitbit data set/Fitabase Data 4.12.16-5.12.16/minute_sleep.csv")
+1700219875036:View(minute_sleep)
+1700219886620:library(readr)
+1700219886621:minute_steps_narrow <- read_csv("Desktop/Fitbit data set/Fitabase Data 4.12.16-5.12.16/minute_steps_narrow.csv")
+1700219887260:View(minute_steps_narrow)
+1700219894180:library(readr)
+1700219894182:minute_steps_wide <- read_csv("Desktop/Fitbit data set/Fitabase Data 4.12.16-5.12.16/minute_steps-wide.csv")
+1700219894346:View(minute_steps_wide)
+1700219902578:library(readr)
+1700219902579:weight_logInfo <- read_csv("Desktop/Fitbit data set/Fitabase Data 4.12.16-5.12.16/weight_logInfo.csv")
+1700219902668:View(weight_logInfo)
+1700220514465:combined_data <- merge(daily_activity, daily_calories, daily_intensities, daily_steps, heartrate_seconds, hourly_calories, hourly_intensities, hourly_steps, minute_calories_narrow, minute_intensities_narrow, minute_METsNarrow, minute_sleep, minute_steps_narrow, sleep_day, weight_logInfo, by="Id")
+1700220586927:View(hourly_intensities)
+1700220614739:View(combined_data)
+1700220628442:View(hourly_intensities)
+1700220772995:combined_data <- merge(daily_activity, daily_calories, daily_intensities, daily_steps, heartrate_seconds, hourly_calories, hourly_intensities, hourly_steps, minute_calories_narrow, minute_intensities_narrow, minute_METsNarrow, minute_sleep, minute_steps_narrow, sleep_day, weight_logInfo, by="Id")
+1700221603050:View(daily_activity)
+1700221603070:View(daily_calories)
+1700221663606:View(daily_Steps)
+1700221807818:View(heartrate_seconds)
+1700221834882:View(daily_intensities)
+1700222210128:activities <- daily_activity
+1700222210130:calories <- daily_calories
+1700222210131:intensities <- daily_intensities
+1700222210131:steps <- daily_Steps
+1700222210131:sleep <- sleep_day
+1700222210131:weight <- weight_logInfo
+1700222242364:head(activities)
+1700222291796:View(activity)
+1700222309158:View(activities)
+1700222324727:View(calories)
+1700222369243:View(intensities)
+1700222369246:View(steps)
+1700222369248:View(sleep)
+1700222369249:View(weight)
+1700222932072:n_distinct(activities)
+1700222932074:n_distinct(calories)
+1700222932075:n_distinct(intensities)
+1700222932075:n_distinct(steps)
+1700222932075:n_distinct(sleep)
+1700222932076:n_distinct(weight)
+1700222977771:n_distinct(activities$Id)
+1700222977772:n_distinct(calories$Id)
+1700222977772:n_distinct(intensities$Id)
+1700222977773:n_distinct(steps$Id)
+1700222977773:n_distinct(sleep$Id)
+1700222977773:n_distinct(weight$Id)
+1700223254007:weight %>%
+1700223254008:group_by(Id) %>%
+1700223254008:summarize(min_weight = min(WeightKg), max_weight = max(WeightKg), mean_weight = mean(WeightKg))
+1700223567682:combined_data <- merge(activites, intensities, calories, steps, sleep, weight, by="Id")
+1700223584099:combined_data <- merge(activities, intensities, calories, steps, sleep, weight, by="Id")
+1700223839083:sleep %>%
+1700223839085:group_by(Id) %>%
+1700223839085:select(TotalSleepRecords, TotalMinutesAsleep, TotalTimeInBed) %>%
+1700223839085:summarise()
+1700223862598:sleep %>%
+1700223862599:select(TotalSleepRecords, TotalMinutesAsleep, TotalTimeInBed) %>%
+1700223862599:summarise()
+1700224003931:activities %>%
+1700224003932:select(TotalSteps, TotalDistance, VeryActiveDistance, SedentaryActiveDistance, VeryActiveMinutes, SedentaryMinutes) %>%
+1700224003932:summarise()
+1700224037512:sleep %>%
+1700224037514:select(TotalSleepRecords, TotalMinutesAsleep, TotalTimeInBed) %>%
+1700224037514:summary()
+1700224047595:activities %>%
+1700224047596:select(TotalSteps, TotalDistance, VeryActiveDistance, SedentaryActiveDistance, VeryActiveMinutes, SedentaryMinutes) %>%
+1700224047596:summary()
+1700293286530:steps %>%
+1700293286535:select(StepTotal) %>%
+1700293286535:summary()
+1700293333737:weight %>%
+1700293333738:select(WeightKg, BMI) %>%
+1700293333738:summary()
+1700293398126:calories %>%
+1700293398126:select(Calories) %>%
+1700293398126:summary()
+1700293481525:intensities %>%
+1700293481527:select(SedentaryMinutes, LightlyActiveMinutes, FairlyActiveMinutes) %>%
+1700293481527:summary()
+1700293701586:n_distinct(calories)
+1700293968337:n_distinct(activities)
+1700294031551:activities %>%
+1700294031553:select(TotalSteps, TotalDistance, FairlyActiveMinutes, LightlyActiveMinutes, VeryActiveMinutes, SedentaryMinutes) %>%
+1700294031553:summary()
+1700296214083:n_distinct((steps))
+1700296237902:merged_data_1 <- merge(steps, calories, by='Id')
+1700296270735:head(merged_data_1)
+1700296440502:ggplot(merged_data_1, aes(x=Calories, y=Steps)) + geom_point() + geom_smooth()
+1700296481200:ggplot(merged_data_1) + geom_point(mapping =  aes(x=Calories, y=Steps))  + geom_smooth()
+1700296500148:ggplot(merged_data_1) + geom_point(mapping =  aes(x=Calories, y=StepTotal))  + geom_smooth()
+1700296516866:ggplot(merged_data_1) + geom_point(mapping =  aes(x=Calories, y=StepTotal))
+1700296592699:ggplot(data=merged_data_1) + geom_point(mapping =  aes(x=Calories, y=StepTotal))
+1700296653115:ggplot(data = merged_data_1) + geom_bar(mapping= aes(x=Calories, y= StepTotal))
+1700296669368:ggplot(data = merged_data_1) + geom_bar(mapping= aes(x=Calories))
+1700296766599:ggplot(data=merged_data_1) + geom_point(mapping =  aes(x=Calories, y=StepTotal, shape=Id))
+1700296783833:ggplot(data=merged_data_1) + geom_point(mapping =  aes(x=Calories, y=StepTotal))
+1700296834166:ggplot(data=merged_data_1) + geom_smooth(mapping =  aes(x=Calories, y=StepTotal))
+1700297175578:ggplot(data=activities) + geom_point(mapping = aes(x=ActivityDate, y=TotalDistance))
+1700297204281:ggplot(data=activities) + geom_point(mapping = aes(x=ActivityDate, y=TotalDistance)) + geom_smooth()
+1700297212778:ggplot(data=activities) + geom_point(mapping = aes(x=ActivityDate, y=TotalDistance))
+1700297246912:ggplot(data=activities) + geom_bar(mapping = aes(x=ActivityDate, fill=TotalDistance))
+1700297269895:ggplot(data=activities) + geom_bar(mapping = aes(x=ActivityDate, fill=TotalDistance, color="Blue"))
+1700297625498:days <- weekdays(sleep$SleepDay)
+1700297819727:days <- strftime(sleep$SleepDay, "%A")
+1700298087224:install.packages("lubridate")
+1700299485983:activities$ActivityDate <- s.POSIXct(activities$ActivityDate, format="%d-%m-%Y-%H:%M")
+1700299606301:activity$ActivityDate=as.POSIXct(activity$ActivityDate, format="%m/%d/%Y", tz=Sys.timezone())
+1700299621497:activities$ActivityDate=as.POSIXct(activities$ActivityDate, format="%m/%d/%Y", tz=Sys.timezone())
+1700299645881:head(activities)
+1700299741301:activities$ActivityDate <- s.POSIXct(activities$ActivityDate, format="%Y-%d-%m-%H:%M")
+1700299751750:activities$ActivityDate <- as.POSIXct(activities$ActivityDate, format="%Y-%d-%m-%H:%M")
+1700299900199:intensities$ActivityDay <- as.POSIXct(intensities$ActivityDay, format="%Y-%d-%m")
+1700299920364:head(intensities)
+1700300007745:intensities$ActivityDay <- as.POSIXct(intensities$ActivityDay, format="%m-%d-%Y")
+1700300175530:intensities <- daily_intensities
+1700312980243:sleep$SleepDay <- as.POSIXct(sleep$SleepDay, format="%m-%d-%Y-%H:%M:%S")
+1700312980251:sleep$date <- format(sleep$SleepDay, format="%m-%d-%Y")
+1700313060176:sleep$SleepDay <- as.POSIXct(sleep$SleepDay, format="%m-%d-%Y-%H:%M:%S", tz=Sys.timezone())
+1700313110260:sleep$SleepDay=as.POSIXct(sleep$SleepDay, format="%m/%d/%Y %I:%M:%S %p", tz=Sys.timezone())
+1700313110261:sleep$date <- format(sleep$SleepDay, format = "%m/%d/%y")
+1700313127774:head(sleep)
+1700313283091:date <- weekdays(SleepDay)
+1700313476958:sleep <- sleep_day
+1700313543675:sleep$SleepDay <- as.POSIXct(sleep$SleepDay, format="%m/%d/%Y %H:%M:%S")
+1700313543682:sleep$date <- format(sleep$SleepDay, format="%m/%d/%Y")
+1700313585487:day <-format(sleep$SleepDay, format="%H:%M:%S")
+1700313601807:sleep$day <-format(sleep$SleepDay, format="%H:%M:%S")
+1700313618353:sleep$time <-format(sleep$SleepDay, format="%H:%M:%S")
+1700313675720:day <- weekdays(date)
+1700313714437:day <- weekdays(date, label=TRUE)
+1700313749800:day <- weekdays(date, abbreviate =TRUE)
+1700313775237:day <- wday(date)
+1700313791504:day <- wday(SleepDay)
+1700313809122:day <- wday(sleep$SleepDay)
+1700313822668:print(day)
+1700313842022:day <- weekdays(sleep$SleepDay)
+1700313849044:print(day)
+1700313890120:day <- weekdays(sleep$SleepDay)
+1700313910434:head(sleep)
+1700313956019:day <- mutate(weekdays(sleep$SleepDay))
+1700313976137:day <- mutate(sleep, weekdays(SleepDay))
+1700316147777:merged_data_2 <- merge(activities, sleep, by = c('Id', 'date'))
+1700316208026:sleep %>%
+1700316208028:rename(ActivityDate=date)
+1700316248112:merged_data_2 <- merge(activities, sleep, by = c('Id', 'date'))
+1700316260759:merged_data_2 <- merge(activities, sleep, by = c('Id', 'ActivityDate'))
+1700316305890:merged_data_2 <- merge(activities, sleep, by='Id')
+1700316320659:head(merged_data_2)
+1700316337759:n_distinct(merged_data_2)
+1700316377276:nrow(merged_data_2)
+1700316389476:n_distinct(activities)
+1700316399529:n_distinct(sleep)
+1700316441291:merged_data_2 <- merge(activities, sleep, by = c('Id', 'ActivityDate'))
+1700316510629:sleep %>%
+1700316510630:rename(ActivityDate=date)
+1700316530160:sleep %>%
+1700316530161:rename(ActivityDate=date) %>%
+1700316530162:View(sleep)
+1700316545891:sleep %>%
+1700316545892:rename(ActivityDate=date)
+1700316561724:sleep %>%
+1700316561724:rename(ActivityDate=date)
+1700316561771:merged_data_2 <- merge(activities, sleep, by = c('Id', 'ActivityDate'))
+1700316587792:activities$ActivityDate <- as.POSIXct(activities$ActivityDate, format="%Y-%d-%m-%H:%M")
+1700316587793:sleep$SleepDay <- as.POSIXct(sleep$SleepDay, format="%m/%d/%Y %H:%M:%S")
+1700316587793:sleep$ActivityDate <- format(sleep$SleepDay, format="%m/%d/%Y")
+1700316587795:sleep$time <-format(sleep$SleepDay, format="%H:%M:%S")
+1700316600242:merged_data_2 <- merge(activities, sleep, by = c('Id', 'ActivityDate'))
+1700316730140:activities$ActivityDate <- as.POSIXct(activities$ActivityDate, format="%Y-%d-%m-%H:%M")
+1700316730143:activities$ActivityDate <- format(sleep$SleepDay, format="%m/%d/%Y")
+1700316767472:activities$ActivityDate <- as.POSIXct(activities$ActivityDate, format="%Y-%d-%m-%H:%M")
+1700316767474:activities$ActivityDate <- format(activities$ActivityDate, format="%m/%d/%Y")
+1700316767479:sleep$SleepDay <- as.POSIXct(sleep$SleepDay, format="%m/%d/%Y %H:%M:%S")
+1700316767480:sleep$ActivityDate <- format(sleep$SleepDay, format="%m/%d/%Y")
+1700316767481:sleep$time <-format(sleep$SleepDay, format="%H:%M:%S")
+1700316773141:merged_data_2 <- merge(activities, sleep, by = c('Id', 'ActivityDate'))
+1700316793890:head(merged_data_2)
+1700316807308:n_distinct(merged_data_2)
+1700316818757:ggplot(data=activities) + geom_point(mapping = aes(x=ActivityDate, y=TotalDistance))
+1700317066189:ggplot(data=activities) + geom_point(mapping = aes(x=ActivityDate, y=TotalDistance)) + labs(title = "Most Active days", color="purple") + theme(axis.text. x = element_text(angle = 90))
+1700317115687:ggplot(datasaurus_dozen,aes(x=x,y=y,color=dataset))+geom_point()+theme_void()+theme(legend.position = "none")+facet_wrap(~dataset,ncol=3)
+1700317117870:ggplot(datasaurus_dozen,aes(x=x,y=y,color=dataset))+geom_point()+theme_void()+theme(legend.position = "none")+facet_wrap(~dataset,ncol=3)
+1700317350390:ggplot(data=activities) + geom_point(mapping = aes(x=ActivityDate, y=TotalDistance)) + labs(title = "Most Active days", color="purple") +
+1700317350392:theme(axis.text.x = element_text(angle = 90))
+1700317473902:ggplot(data=activities) + geom_bar(mapping = aes(x=ActivityDate, fill=TotalDistance))
+1700317525585:ggplot(data=activities) + geom_bar(mapping = aes(x=ActivityDate, fill=TotalDistance, color="yellow"))+
+1700317525586:labs(title = "Most Active days", color="purple") +
+1700317525587:theme(axis.text.x = element_text(angle = 90))
+1700317550603:ggplot(data=activities) + geom_bar(mapping = aes(x=ActivityDate, fill=TotalDistance, color="yellow"))+
+1700317550604:labs(title = "Most Active days") +
+1700317550604:theme(axis.text.x = element_text(angle = 90))
+1700317588233:ggplot(data=activities) + geom_bar(mapping = aes(x=ActivityDate, fill=TotalDistance, color="TotalDistance"))+
+1700317588234:labs(title = "Most Active days") +
+1700317588234:theme(axis.text.x = element_text(angle = 90))
+1700317687985:ggplot(data=activities) + geom_bar(mapping = aes(x=ActivityDate, fill=TotalDistance), color="red")+
+1700317687986:labs(title = "Most Active days") +
+1700317687987:theme(axis.text.x = element_text(angle = 90))
+1700317863350:ggplot(data=activities) + geom_col(mapping = aes(x=ActivityDate, fill=TotalDistance), color="red")+
+1700317863352:labs(title = "Most Active days") +
+1700317863352:theme(axis.text.x = element_text(angle = 90))
+1700317882648:ggplot(data=activities) + geom_col(mapping = aes(x=ActivityDate, y="TotalDistance"), color="red")+
+1700317882649:labs(title = "Most Active days") +
+1700317882649:theme(axis.text.x = element_text(angle = 90))
+1700317911465:ggplot(data=activities) + geom_bar(mapping = aes(x=ActivityDate, fill=TotalDistance), color="red")+
+1700317911466:labs(title = "Most Active days") +
+1700317911466:theme(axis.text.x = element_text(angle = 90))
+1700317944596:ggplot(data=activities) + geom_bar(mapping = aes(x=ActivityDate, fill=TotalDistance), color="red")+
+1700317944597:labs(title = "Most Active days") +
+1700317944597:theme(axis.text.x = element_text(angle = 90)) + facet_wrap(~TotalDistance)
+1700318000927:ggplot(data=activities) + geom_bar(mapping = aes(x=ActivityDate, fill=TotalDistance))+
+1700318000928:labs(title = "Most Active days") +
+1700318000929:facet_wrap(~TotalDistance)
+1700318058533:ggplot(data=activities) + geom_bar(mapping = aes(x=ActivityDate)+
+1700318058536:labs(title = "Most Active days") +
+1700318058536:facet_wrap(~TotalDistance)
+1700318058536:ggplot(data=activities) + geom_bar(mapping = aes(x=TotalDistance)+
+1700318085546:ggplot(data=activities) + geom_bar(mapping = aes(x=ActivityDate)+
+1700318085546:labs(title = "Most Active days")
+1700318141943:ggplot(data=activities) + geom_bar(mapping = aes(x=ActivityDate))+
+1700459607952:ggplot(data=activities) + geom_point(mapping = aes(x=ActivityDate, y=TotalDistance)) + labs(title = "Most Active days", color="purple")
+1700459609128:ggplot(data=activities) + geom_bar(mapping = aes(x=ActivityDate))+
+1700459609128:labs(title = "Most Active days")
+1700459738290:typeof(ActivityDate$activities)
+1700459856358:str(activities)
+1700459887013:activities$ActivityDate <- as.POSIXct(activities$ActivityDate, format="%Y-%d-%m-%H:%M")
+1700459887016:activities$ActivityDate <- format(activities$ActivityDate, format="%m/%d/%Y")
+1700459898077:str(activites)
+1700459907152:str(activities)
+1700459922221:str(sleep)
+1700460029994:activities$ActivityDate <- as.POSIXct(activities$ActivityDate, format="%Y-%d-%m-%H:%M", tz=Sys.timezone())
+1700460053078:str(activities)
+1700460068313:sleep$time <-format(sleep$SleepDay, format="%H:%M:%S", tz=Sys.timezone())
+1700460080129:str(sleep)
+1700460090179:sleep$SleepDay <- as.POSIXct(sleep$SleepDay, format="%m/%d/%Y %H:%M:%S", tz=Sys.timezone())
+1700460098109:str(sleep)
+1700460131114:sleep$SleepDay <- as.POSIXct(sleep$SleepDay, format="%m/%d/%Y %H:%M:%S", tz=Sys.timezone())
+1700460131116:sleep$ActivityDate <- format(sleep$SleepDay, format="%m/%d/%Y", tz=Sys.timezone())
+1700460131121:sleep$time <-format(sleep$SleepDay, format="%H:%M:%S", tz=Sys.timezone())
+1700460137342:str(sleep)
+1700460205531:activities$ActivityDate <- as.POSIXct(activities$ActivityDate, format="%Y-%d-%m-%H:%M", tz=Sys.timezone())
+1700460205535:activities$ActivityDate <- format(activities$ActivityDate, format="%m/%d/%Y")
+1700460205540:sleep$SleepDay <- as.POSIXct(sleep$SleepDay, format="%m/%d/%Y %H:%M:%S", tz=Sys.timezone())
+1700460205541:sleep$ActivityDate <- format(sleep$SleepDay, format="%m/%d/%Y")
+1700460205542:sleep$time <-format(sleep$SleepDay, format="%H:%M:%S")
+1700460249132:sleep$SleepDay <- as.POSIXct(sleep$SleepDay, format="%m/%d/%Y %H:%M:%S", tz=Sys.timezone())
+1700460249136:sleep$date <- format(sleep$SleepDay, format="%m/%d/%Y")
+1700460249139:sleep$time <-format(sleep$SleepDay, format="%H:%M:%S")
+1700460255222:str(sleep)
+1700460334121:day <- mutate(sleep, weekdays(date))
+1700460352772:date <- weekdays(date)
+1700460405506:merged_data_2 <- merge(sleep, activities, by = c('Id', 'date'))
+1700460486043:activities$date <- format(activities$ActivityDate, format="%m/%d/%Y")
+1700460494129:sleep$date <- format(sleep$SleepDay, format="%m/%d/%Y")
+1700460497877:merged_data_2 <- merge(sleep, activities, by = c('Id', 'date'))
+1700460501094:head(merged_data_2)
+1700460670925:merged_data_2 <- mutate(merged_data_2, day=wday(SleepDay, label = TRUE))
+1700460693724:View(merged_data_2)
+1700460749807:View(merged_data_1)
+1700461255420:summarized_sleep_activities <- merged_data_2 %>%
+1700461255422:group_by(day)
+1700461302106:summarized_sleep_activities <- merged_data_2 %>%
+1700461302108:group_by(day) %>%
+1700461302108:summarise(AvgDailySteps = mean(TotalSteps),
+1700461302108:AvgAsleepMinutes = mean(TotalMinutesAsleep),
+1700461302108:AvgAwakeTimeInBed = mean(TotalTimeInBed),
+1700461302109:AvgSedentaryMinutes = mean(SedentaryMinutes),
+1700461302109:AvgLightlyActiveMinutes = mean(LightlyActiveMinutes),
+1700461302109:AvgFairlyActiveMinutes = mean(FairlyActiveMinutes),
+1700461302109:AvgVeryActiveMinutes = mean(VeryActiveMinutes),
+1700461302110:AvgCalories = mean(Calories))
+1700461302119:head(summarized_activity_sleep)
+1700461325722:summarized_sleep_activities <- merged_data_2 %>%
+1700461325724:group_by(day) %>%
+1700461325724:summarise(AvgDailySteps = mean(TotalSteps),
+1700461325724:AvgAsleepMinutes = mean(TotalMinutesAsleep),
+1700461325725:AvgAwakeTimeInBed = mean(TotalTimeInBed),
+1700461325725:AvgSedentaryMinutes = mean(SedentaryMinutes),
+1700461325725:AvgLightlyActiveMinutes = mean(LightlyActiveMinutes),
+1700461325725:AvgFairlyActiveMinutes = mean(FairlyActiveMinutes),
+1700461325726:AvgVeryActiveMinutes = mean(VeryActiveMinutes),
+1700461325726:AvgCalories = mean(Calories))
+1700461325737:head(summarized_sleep_activities)
+1700461577699:install.packages("tidyverse")
+1700461577702:install.packages("readr")
+1700461577703:install.packages("dplyr")
+1700461577703:install.packages("skimr")
+1700461577704:install.packages("janitor")
+1700461577704:install.packages("lubridate")
+1700461584497:install.packages("lubridate")
+1700461586669:install.packages("tidyverse")
+1700461928290:library(tidyverse)
+1700461928291:library(readr)
+1700461928291:library(dplyr)
+1700461928292:library(skimr)
+1700461928292:library(janitor)
+1700461928292:library(lubridate)
+1700462167264:activities <- read.csv("daily_activity.csv")
+1700462179809:library(readr)
+1700462179810:daily_activity <- read_csv("Desktop/Fitbit data set/Fitabase Data 4.12.16-5.12.16/daily_activity.csv")
+1700462179934:View(daily_activity)
+1700462199777:activities <- read.csv("daily_activity.csv")
+1700462223298:activities<-daily_activity
+1700462234295:View(activities)
+1700462386163:intensities <- daily_intensities
+1700462386164:calories <- daily_calories
+1700462386165:sleep <- sleep_day
+1700462386165:steps <- daily_Steps
+1700462386165:weight <- weight_logInfo
+1700462389994:View(intensities)
+1700462389997:View(sleep)
+1700462389998:View(steps)
+1700462390000:View(weight)
+1700462390001:View(activities)
+1700479537206:str(activities)
+1700479537243:str(sleep)
+1700479537255:str(steps)
+1700479537263:str(weight)
+1700479537286:str(intensities)
+1700479573299:str(calories)
+1700481893757:activities$ActivityDate = as.POSIXct(activities$ActivityDate, format = "%Y/%d/%m", tz=Sys.timezone())
+1700481893770:activities$date <- format(activities$ActivityDate,"%m.%d/%Y" )
+1700481924626:activities$ActivityDate = as.POSIXct(activities$ActivityDate, format = "%m/%d/%Y", tz=Sys.timezone())
+1700481924628:activities$date <- format(activities$ActivityDate,"%m.%d/%Y" )
+1700481963395:activities$ActivityDate = as.POSIXct(activities$ActivityDate, format = "%m-%d-%Y", tz=Sys.timezone())
+1700481963400:activities$date <- format(activities$ActivityDate,"%m.%d/%Y" )
+1700482197512:activities$ActivityDate = as.POSIXct(activities$ActivityDate, format = "%m/%d/%Y", tz=Sys.timezone())
+1700482197516:activities$date <- format(activities$ActivityDate,"%m%d/%Y" )
+1700482226009:activities$ActivityDate = as.POSIXct(activities$ActivityDate, format = "%m/%d/%Y", tz=Sys.timezone())
+1700482226012:activities$date <- format(activities$ActivityDate,"%m%d/%y" )
+1700482344208:activities$ActivityDate=as.POSIXct(activities$ActivityDate, format="%m/%d/%Y", tz=Sys.timezone())
+1700482344211:activities$date <- format(activities$ActivityDate, format = "%m/%d/%y")
+1700482509227:activities$ActivityDate = as.POSIXct(activities$ActivityDate, format = "%m/%d/%Y", tz=Sys.timezone())
+1700482509231:activities$date <- format(activities$ActivityDate,"%m/%d/%Y" )
+1700482540522:activities$ActivityDate = as.POSIXct(activities$ActivityDate, format = "%b/%d/%Y", tz=Sys.timezone())
+1700482540523:activities$date <- format(activities$ActivityDate,"%b/%d/%Y" )
+1700482606792:activities$ActivityDate = as.POSIXct(activities$ActivityDate, format = "%m/%d/%Y", tz=Sys.timezone())
+1700482606796:activities$date <- format(activities$ActivityDate,"%m/%d/%Y")
+1700482627918:install.packages("lubridate")
+1700482649572:library(lubridate)
+1700482655456:activities$ActivityDate = as.POSIXct(activities$ActivityDate, format = "%m/%d/%Y", tz=Sys.timezone())
+1700482655458:activities$date <- format(activities$ActivityDate,"%m/%d/%Y")
+1700482690920:activities$date <- format(activities$ActivityDate,format = "%m/%d/%Y")
+1700482898404:sleep$SleepDay = as.POSIXct(sleep$SleepDay, format = "%m/%d/%Y %H:%M:%S", tz=Sys.timezone())
+1700482978605:sleep$SleepDay = as.POSIXct(sleep$SleepDay, format = "%m/%d/%Y %H:%M:%S", tz=Sys.timezone())
+1700482978607:sleep$date <- format(sleep$SleepDay, format="%m/%d/%Y")
+1700482992687:activities$ActivityDate = as.POSIXct(activities$ActivityDate, format = "%m/%d/%Y", tz=Sys.timezone())
+1700482992688:activities$date <- format(activities$ActivityDate,format = "%m/%d/%Y")
+1700483013516:activities$ActivityDate = as.POSIXct(activities$ActivityDate, format = "%m-%d-%Y", tz=Sys.timezone())
+1700483013517:activities$date <- format(activities$ActivityDate,format = "%m/%d/%Y")
+1700483206633:intensities <- hourly_intensities
+1700483214552:View(intensities)
+1700483361534:intensities$ActivityHour = as.POSIXct(intensities$ActivityHour, format="%m/%d/%Y %H:%M:%S %p", tz=Sys.timezone())
+1700483361698:intensities$time <- format(intensities$ActivityHour, format = "%H:%M:%S")
+1700483361712:intensities$date <- format(intensities$ActivityHour, format = "%m/%d/%y")
+1700483405748:activities<-daily_activity
+1700483411534:View(activities)
+1700483447497:activities$ActivityDate = as.POSIXct(activities$ActivityDate, format = "%m/%d/%Y", tz=Sys.timezone())
+1700483447514:activities$date <- format(activities$ActivityDate,format = "%m/%d/%Y")
+1700483838359:activities %>%
+1700483838361:select(TotalDistance, VeryActiveMinutes, LightlyActiveMinutes, FairlyActiveMinutes, SedentaryMinutes) %>%
+1700483838362:summary()
+1700483874958:activities %>%
+1700483874959:select(TotalDistance, VeryActiveMinutes, LightlyActiveMinutes, FairlyActiveMinutes, SedentaryMinutes) %>%
+1700483874959:summary()
+1700483954744:weight %>%
+1700483954745:group_by(Id) %>%
+1700483954745:summarise(min(WeightKg), max(WeightKg), mean(WeightKg))
+1700483977628:install.packages("dplyr")
+1700483989806:install.packages("dplyr")
+1700484014811:install.packages("dplyr")
+1700484019905:install.packages("dplyr")
+1700484021867:library(dplyr)
+1700484026977:activities %>%
+1700484026977:select(TotalDistance, VeryActiveMinutes, LightlyActiveMinutes, FairlyActiveMinutes, SedentaryMinutes) %>%
+1700484026978:summary()
+1700484201447:weight %>%
+1700484201448:group_by(Id) %>%
+1700484201448:summarise(min(WeightKg), max(WeightKg), mean(WeightKg))
+1700484304809:intensities %>%
+1700484304810:select(TotalIntensity, AverageIntensity) %>%
+1700484304810:summary()
+1700484316803:weight %>%
+1700484316803:group_by(Id) %>%
+1700484316803:summarise(min(WeightKg), max(WeightKg))
+1700484395189:calories %>%
+1700484395190:select(Calories) %>%
+1700484395190:summary()
+1700484395196:sleep %>%
+1700484395196:select(TotalSleepRecords, TotalMinutesAsleep, TotalTimeInBed) %>%
+1700484395196:summary()
+1700484395201:weight %>%
+1700484395201:select(WeightKg, BMI) %>%
+1700484395201:summary()
+1700484406639:weight %>%
+1700484406640:group_by(Id) %>%
+1700484406641:summarise(min(WeightKg), max(WeightKg), mean(WeightKg))
+1700484423854:install.packages("dplyr")
+1700484436436:library(dplyr)
+1700484436445:install.packages("dplyr")
+1700484449835:install.packages("dplyr")
+1700484460855:install.packages("dplyr")
+1700484501638:install.packages("dplyr")
+1700484513870:install.packages("dplyr")
+1700484530941:source("~/BellaBeat Data Analysis.R")
+1700484746373:install.packages("dplyr")
+1700484753686:library(dplyr)
+1700484763555:weight %>%
+1700484763556:group_by(Id) %>%
+1700484763556:summarise(min(WeightKg), max(WeightKg), mean(WeightKg))
+1700544636673:sleep %>%
+1700544636675:select(TotalSleepRecords, TotalMinutesAsleep, TotalTimeInBed) %>%
+1700544636675:summary()
+1700544719767:calories %>%
+1700544719768:select(Calories) %>%
+1700544719768:summary()
+1700544764417:intensities %>%
+1700544764418:select(TotalIntensity, AverageIntensity) %>%
+1700544764418:summary()
+1700544775230:activities %>%
+1700544775231:select(TotalDistance, VeryActiveMinutes, LightlyActiveMinutes, FairlyActiveMinutes, SedentaryMinutes) %>%
+1700544775231:summary()
+1700544891212:head(activities)
+1700544967098:intall.packages("ggplot")
+1700544978747:install.packages("ggplot")
+1700544993597:install.packages("ggplot")
+1700545056999:library(ggplot2)
+1700545063197:install.packages("ggplot2")
+1700545076489:library(ggplot2)
+1700545124068:ggplot(data=activities) +
+1700545124069:geom.point(mapping = aes(x=TotalDistance, y=Calories))
+1700545194532:ggplot(data=activities, aes(x=TotalDistance, y=Calories)) + geom_point()
+1700545206296:ggplot(data=activities, aes(x=TotalDistance, y=Calories)) + geom_point() + geom_smooth()
+1700545323081:ggplot(data=activities, aes(x=TotalSteps, y=Calories)) + geom_point() + geom_smooth() + labs(title = "Steps V/s Calories burnt", color="red")
+1700545496011:ggplot(data=activities, aes(x=TotalSteps, y=Calories, shape=TotalDistance)) + geom_point() + geom_smooth() +
+1700545496012:labs(title = "Steps V/s Calories burnt", color="red")
+1700545620445:ggplot(data=activities, aes(x=TotalSteps, y=Calories)) + geom_point() + geom_smooth() +
+1700545620446:labs(title = "Steps V/s Calories burnt", color="red")
+1700545782391:ggplot(data=activities, aes(x=TotalSteps, y=Calories)) + geom_point() + geom_smooth() +
+1700545782392:labs(title = "Steps V/s Calories burnt", color="red") + theme(legend.position = "right")
+1700546254492:intensities %>%
+1700546281942:group_by(time) %>%
+1700546324174:summarise(min(Totalintensity), max(TotalIntensity))
+1700546364894:`rlang::last_trace()`
+1700546419462:str(intensities)
+1700546650101:#To check the most active dates
+1700546663668:activities %>%
+1700546682838:group_by(date)
+1700546693624:activities %>% group_by(date)
+1700546700552:activities %>%
+1700546710259:group_by(date) %>%
+1700546835675:select(FairlyActiveMinutes, LightlyActiveMinutes, SedentaryMinutes, VeryActiveMinutes ) %>%
+1700546840408:summary()
+1700547295508:merged_data_1 <- merge(activities, sleep, by = c("Id", "date"))
+1700547295521:head(merged_data_1)
+1700547454072:ggplot(data = merged_data_1, aes(x=TotalDistance, y=TotalMinutesAsleep)) + geom_point()+
+1700547454073:labs(title="Total Distance walked  V/s Sleep Duration")
+1700547466389:ggplot(data = merged_data_1, aes(x=TotalDistance, y=TotalMinutesAsleep)) + geom_point()+
+1700547466390:labs(title="Total Distance walked  V/s Sleep Duration") + geom_smooth()
+1700547509022:ggplot(data = merged_data_1, aes(x=TotalDistance, y=TotalMinutesAsleep)) + geom_point()+
+1700547509023:labs(title="Total Distance walked  V/s Sleep Duration") + facet_wrap(TotalSteps)
+1700547617270:ggplot(data = merged_data_1, aes(x=TotalDistance, y=TotalMinutesAsleep)) + geom_point()+
+1700547617272:labs(title="Total Distance walked  V/s Sleep Duration") + geom_smooth()
+1700547652402:ggplot(data = merged_data_1, aes(x=SedentaryMinutes, y=TotalMinutesAsleep)) + geom_point()+
+1700547652404:labs(title="Sedentary Minutes V/s Sleep Duration") + geom_smooth()
+1700547732871:cor(merged_data_1$SedentaryMinutes, merged_data_1$TotalMinutesAsleep)
+1700554030289:merged_data_1 <- mutate(merged_data_1, day=wday(SleepDay, label = TRUE))
+1700554084635:merged_data_1 <- mutate(merged_data_1, day = wday(SleepDay, label = TRUE))
+1700554136564:merged_data_1 <- mutate(merged_data_1,
+1700554136565:day = wday(SleepDay, label = TRUE))
+1700554148856:?wday()
+1700554166450:merged_data_1 <- mutate(merged_data_1, day = weekday(SleepDay, label = TRUE))
+1700554406433:merged_data_1 <- mutate(as.POSIXlt(merged_data_1$date)$wday)
+1700554424705:merged_data_1 <- mutate(as.POSIXlt(merged_data_1$SleepDay)$wday)
+1700554453174:head
+1700554464876:head(merged_data_1)
+1700554505650:day = as.POSIXlt(merged_data_1$SleepDay)$wday
+1700554568477:merged_data_1 %>% mutate(merged_data_1)
+1700554584330:merged_data_1 %>%
+1700554604691:mutate(day = SleepDay)
+1700554661448:merged_data_1 <- mutate(merged_data_1, day = wday(SleepDay, label = TRUE))
+1700554670080:install.packages("lubridate")
+1700554678062:library(lubridate)
+1700554684129:merged_data_1 <- mutate(merged_data_1, day = wday(SleepDay, label = TRUE))
+1700554823247:activties_sleep <- merged_data_1 %>%
+1700554823248:group_by(day) %>%
+1700554823248:summarise(AvgDailySteps = mean(TotalSteps),
+1700554823248:AvgAsleepMinutes = mean(TotalMinutesAsleep),
+1700554823249:AvgAwakeTimeInBed = mean(TotalTimeInBed),
+1700554823249:AvgSedentaryMinutes = mean(SedentaryMinutes),
+1700554823249:AvgLightlyActiveMinutes = mean(LightlyActiveMinutes),
+1700554823249:AvgFairlyActiveMinutes = mean(FairlyActiveMinutes),
+1700554823250:AvgVeryActiveMinutes = mean(VeryActiveMinutes),
+1700554823250:AvgCalories = mean(Calories))
+1700554823266:head(activities_sleep)
+1700554832361:activities_sleep <- merged_data_1 %>%
+1700554832362:group_by(day) %>%
+1700554832362:summarise(AvgDailySteps = mean(TotalSteps),
+1700554832362:AvgAsleepMinutes = mean(TotalMinutesAsleep),
+1700554832363:AvgAwakeTimeInBed = mean(TotalTimeInBed),
+1700554832363:AvgSedentaryMinutes = mean(SedentaryMinutes),
+1700554832363:AvgLightlyActiveMinutes = mean(LightlyActiveMinutes),
+1700554832363:AvgFairlyActiveMinutes = mean(FairlyActiveMinutes),
+1700554832364:AvgVeryActiveMinutes = mean(VeryActiveMinutes),
+1700554832364:AvgCalories = mean(Calories))
+1700554832373:head(activities_sleep)
+1700555030427:ggplot(data=activities_sleep, mapping=aes(x=day, fill=day)) + geom_bar()
+1700555104160:ggplot(data=activities_sleep, mapping = aes(x = day, y = AvgDailySteps, fill = day)) +
+1700555104161:geom_col() + labs(title = "Daily Step Count")
+1700555186612:ggplot(data=activities_sleep, mapping = aes(x = day, y = AvgDailySteps, fill = day)) +
+1700555186613:geom_col() + labs(title = "Daily Step Count") + theme(element_text("Days"))
+1700555578322:ggplot(data=activities_sleep, mapping = aes(x = day, y = AvgDailySteps, fill = day)) +
+1700555578323:geom_col() + labs(title = "Daily Step Count") + labs(tite = "Activity levels in the week", color = "red",fontface = "bold")+
+1700555578323:guides(fill = guide_legend(title = "Days"))
+1700555604520:ggplot(data=activities_sleep, mapping = aes(x = day, y = AvgDailySteps, fill = day)) +
+1700555604521:geom_col() + labs(title = "Daily Step Count") + labs(title = "Activity levels in the week", color = "red",fontface = "bold")+
+1700555604522:guides(fill = guide_legend(title = "Days"))
+1700556141031:View(activities_sleep)
+1700556160613:View(merged_data_1)
+1701068619838:library(readr)
+1701068619844:Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Downloads/Supermart Grocery Sales - Retail Analytics Dataset.csv")
+1701068620128:View(Supermart_Grocery_Sales_Retail_Analytics_Dataset)
+1701068712114:sales_data <- Supermart_Grocery_Sales_Retail_Analytics_Dataset
+1701068712115:View(sales_data)
+1701070238075:install.packages("tidyverse")
+1701070241021:install.packages("lubridate")
+1701070242584:install.packages("dplyr")
+1701070244280:install.packages("readr")
+1701070256823:install.packages("readr")
+1701070331438:library(tidyverse)
+1701070332314:library(lubridate)
+1701070332314:library(dplyr)
+1701070332314:library(readr)
+1701070724036:head(sales_data)
+1701071140768:colnames(sales_data)
+1701071170030:str(sales_data)
+1701071463928:Order_date <- as.Date("Order Date", "% d/% m/% y")
+1701071488682:View(Order_date)
+1701071594390:mutate(sales_date, 'Order Date' = as.Date("Order Date", "% d/% m/% y") )
+1701071604931:mutate(sales_data, 'Order Date' = as.Date("Order Date", "% d/% m/% y") )
+1701071620085:View(sales_data)
+1701071660133:mutate(sales_data, 'Order Date' = as.Date("Order Date", "% d-% m-% y") )
+1701071698271:mutate(sales_data, 'Order Date' = as.Date("Order Date", "% d-% m-% Y") )
+1701071805957:sales_data %>%
+1701071822210:convert(dte(Order Date))
+1701071880189:sales_data %>%
+1701071894204:convert(dte('Order Date'))
+1701071946444:install.packages(convertr)
+1701071958647:install.packages("convertr")
+1701071972642:library(convertr)
+1701072003744:sales_data %>%
+1701072003744:convert(dte(`Order Date`))
+1701072169518:sales_data %>%
+1701072237718:Order_date <- as.Date(`Order Date`, %m/%d/%Y)
+1701072278306:as.Date(sales_data$`Order Date`,%m/%d/%Y)
+1701072516174:sales_data %>%
+1701072516175:mutate(Order_date = as.Date(as.character(`Order Date`),
+1701072516176:format = c("%d/%m/%Y", "%m/%d/%Y", "%Y-%m-%d",
+1701072516176:"%d %b %Y", "%B %d, %Y", "%b %d, %Y", "%m/%d/%y")))
+1701072745102:sales_data %>%
+1701072745103:mutate(Order_date = as.Date(as.character(`Order Date`),
+1701072745104:format = c("%d/%m/%Y", "%m/%d/%Y", "%Y-%m-%d",
+1701072745104:"%d %b %Y", "%m/%d/%y")))
+1701072861251:print(n=50)
+1701072890554:View(sales_data)
+1701072935654:View(sales_data$`Order Date`)
+1701073024170:sales_data_cleaned <- sales_data %>%
+1701073024171:mutate(Order_date = as.Date(as.character(`Order Date`),
+1701073024171:format = c("%d/%m/%Y", "%m/%d/%Y", "%Y-%m-%d",
+1701073024171:"%d %b %Y", "%m/%d/%y")))
+1701073036978:View(sales_data_cleaned)
+1701073178321:sales_data_cleaned <- sales_data %>%
+1701073178322:mutate(Order_date = as.Date(as.character(`Order Date`),
+1701073178322:format = c("%d/%m/%Y", "%m/%d/%Y", "%Y-%m-%d",
+1701073178322:"%d %b %Y", "%m/%d/%y", "%m-%d-%Y")))
+1701073204102:tr(sales_data)
+1701073207704:str(sales_data)
+1701073263083:Order_date <- mutate(sales_data, as.Date(as.character(`Order Date`),
+1701073263083:format = c("%d/%m/%Y", "%m/%d/%Y", "%Y-%m-%d",
+1701073263083:"%d %b %Y", "%m/%d/%y", "%m-%d-%Y")))
+1701073365802:sales_data %>%
+1701073365803:Order_date <- mutate(`Order Date` = as.Date(as.character(`Order Date`),
+1701073365803:format = c("%d/%m/%Y", "%m/%d/%Y", "%Y-%m-%d",
+1701073365804:"%d %b %Y", "%m/%d/%y", "%m-%d-%Y")))
+1701073385715:sales_data %>%
+1701073385716:Order_date <- mutate(Order_date = as.Date(as.character(`Order Date`),
+1701073385717:format = c("%d/%m/%Y", "%m/%d/%Y", "%Y-%m-%d",
+1701073385717:"%d %b %Y", "%m/%d/%y", "%m-%d-%Y")))
+1701074096647:sales_data %>%
+1701074096649:mutate(Order_date = as.Date(as.character(`Order Date`),
+1701074096650:format = c("%d/%m/%Y", "%m/%d/%Y", "%Y-%m-%d",
+1701074096650:"%d %b %Y", "%m/%d/%y", "%m-%d-%Y")))
+1701074132371:View(sales_data)
+1701074163112:sales_data %>%
+1701074163113:mutate(Order_date = as.Date(as.character(`Order Date`),
+1701074163114:format = c("%d/%m/%Y", "%m/%d/%Y", "%Y-%m-%d",
+1701074163114:"%d %b %Y", "%m/%d/%y", "%m-%d-%Y")))
+1701074163186:View(sales_data)
+1701074226994:sales_data %>%
+1701074226996:mutate(Order_date = as.Date(as.character(`Order Date`),
+1701074226996:format = c("%d/%m/%Y", "%m/%d/%Y", "%Y-%m-%d",
+1701074226996:"%d %b %Y", "%m/%d/%y", "%m-%d-%Y","%d-%m-%Y")))
+1701074268677:str(sales_data)
+1701074411477:sales_data %>%
+1701074411478:mutate(converted_date = parse_date_time(`Order Date`,
+1701074411479:orders = c("mdy", "dmy", "ymd")))
+1701074872476:sales_data$`Order Date`= as.POSIXct(sales_data$`Order Date`, format = "%m/%d/%Y")
+1701074872527:sales_data$new_date <- format(sales_data$`Order Date`, format = "%m/%d/%Y")
+1701075048125:sales_data$`Order Date`= as.POSIXct(sales_data$`Order Date`, format = c("%d/%m/%Y", "%m/%d/%Y", "%Y-%m-%d","%d-%m-%Y","%m-%d-%Y"))
+1701075048126:sales_data$new_date <- format(sales_data$`Order Date`, format = c("%d/%m/%Y", "%m/%d/%Y", "%Y-%m-%d","%d-%m-%Y","%m-%d-%Y"))
+1701075093448:head(sales_data)
+1701075144541:sales_data %>%
+1701075144542:mutate(Order_date = as.Date(as.character(`Order Date`),
+1701075144543:format = c("%d/%m/%Y", "%m/%d/%Y", "%Y-%m-%d",
+1701075144543:"%d %b %Y", "%m/%d/%y", "%m-%d-%Y","%d-%m-%Y")))
+1701076685929:install.packages("stringr")
+1701076697909:library(stringr)
+1701076731311:sales_data <- Supermart_Grocery_Sales_Retail_Analytics_Dataset
+1701076793843:sales_data$`Order Date`<- str_replace_all(sales_data$`Order Date`, "-", "/")
+1701076810572:print(sales_data$`Order Date`)
+1701077169357:sales_data$Order_date <- as.Date(sales_data$`Order Date`, format = "%d/%m/%Y")
+1701077298470:sales_data$Order_date <- as.Date(sales_data$`Order Date`, format = "%Y/%m/%d")
+1701077414823:sales_data$`Order Date`= as.POSIXct(sales_data$`Order Date`, format = "%m/%d/%Y")
+1701077414900:sales_data$Order_date<-format(sales_data$`Order Date`,format = "%m/%d/%Y")
+1701077740704:sales_data %>%
+1701077740705:select(Category, City, Sales, Discount, Profit) %>%
+1701077740706:summary()
+1701077883736:sales_data$year<-format(sales_data$`Order Date`,format = "%Y")
+1701077939868:sales_data %>%
+1701077939869:select(Sales, Discount, Profit) %>%
+1701077939870:group_by(year) %>%
+1701077939870:summary()
+1701078015702:sales_data %>%
+1701078015703:group_by(year) %>%
+1701078015703:summarise(min(Sales), max(Sales), min(Profit), max(Profit))
+1701078063549:sales_data %>%
+1701078063551:group_by(year, Category) %>%
+1701078063551:summarise(min(Sales), max(Sales), min(Profit), max(Profit))
+1701078103751:profit_summary <- sales_data %>%
+1701078103752:group_by(year, Category) %>%
+1701078103752:summarise(min(Sales), max(Sales), min(Profit), max(Profit))
+1701078119481:head(profit_summary)
+1701078160201:View(profit_summary)
+1701082015934:profit_summary <- sales_data %>%
+1701082015935:group_by(year) %>%
+1701082015935:summarise(min(Sales), max(Sales), min(Profit), max(Profit))
+1701082015956:head(profit_summary)
+1701082316126:profit_summary %>%
+1701082326190:select(profit) %>%
+1701082345122:group_by(year,category) %>%
+1701082348069:summary()
+1701082401247:profit_summary %>%
+1701082401248:group_by(year,category) %>%
+1701082401248:summary(Profit)
+1701082413691:profit_summary %>%
+1701082413692:group_by(year,Category) %>%
+1701082413692:summary(Profit)
+1701082461477:profit_summary <- sales_data %>%
+1701082461478:group_by(year) %>%
+1701082461478:select(Category)
+1701082461512:summarise(min(Sales), max(Sales), min(Profit), max(Profit))
+1701082480595:profit_summary <- sales_data %>%
+1701082480596:group_by(year) %>%
+1701082480596:summarise(min(Sales), max(Sales), min(Profit), max(Profit))
+1701082480603:head(profit_summary)
+1701082503026:profit_summary <- sales_data %>%
+1701082503027:group_by(year) %>%
+1701082503028:summarise(min(Sales), max(Sales), min(Profit), max(Profit), count(Category))
+1701082955524:most_sold_category <- sales_data %>%
+1701082955525:count(Category)
+1701082971674:head(most_sold_category)
+1701083005753:category_sales_count <- sales_data %>%
+1701083005753:count(Category)
+1701083022558:head(category_sales_count)
+1701083053472:category_sales_count <- sales_data %>%
+1701083053473:group_by(year) %>%
+1701083053473:count(Category)
+1701083060306:head(category_sales_count)
+1701083076938:View(category_sales_count)
+1701083113924:category_sales_count <- sales_data %>%
+1701083113926:group_by(year) %>%
+1701083113926:count(Category) AS Sales_count
+1701083125755:category_sales_count <- sales_data %>%
+1701083125755:group_by(year) %>%
+1701083125755:count(Category)
+1701083411908:ggplot(data=category_sales_count, mapping = aes(x=year, y=categories, fill=n)) +
+1701083411909:geom_col() + labs(title="Categories-wise sales from 2015-2018")
+1701083424754:ggplot(data=category_sales_count, mapping = aes(x=year, y=Category, fill=n)) +
+1701083424755:geom_col() + labs(title="Categories-wise sales from 2015-2018")
+1701083467422:ggplot(data=category_sales_count, mapping = aes(x=Category, y=year, fill=Category)) +
+1701083467423:geom_col() + labs(title="Categories-wise sales from 2015-2018")
+1701083487352:ggplot(data=category_sales_count, mapping = aes(x=Category, y=year, fill=n)) +
+1701083487353:geom_col() + labs(title="Categories-wise sales from 2015-2018")
+1701083607471:ggplot(data=category_sales_count) + geom_bar(mapping=aes(x=Category, fill=n)) +
+1701083607472:labs(title="Categories-wise sales from 2015-2018") + facet_wrap(~year)
+1701083641619:ggplot(data=category_sales_count) + geom_bar(mapping=aes(x=year, fill=n)) +
+1701083641620:labs(title="Categories-wise sales from 2015-2018") + facet_wrap(~Category)
+1701084267601:ggplot(data=category_sales_count, aes(x=year, y=n)) + geom_line() +
+1701084267603:geom_point() + facet_wrap(~Category)
+1701084289395:ggplot(data=category_sales_count, aes(x=year, y=n)) + geom_line() +
+1701084289396:geom_point() + geom_smooth() + facet_wrap(~Category)
+1701084314043:ggplot(data=category_sales_count, aes(x=year, y=n, group=1)) + geom_line() +
+1701084314045:geom_point() + geom_smooth() + facet_wrap(~Category)
+1701084334213:ggplot(data=category_sales_count, aes(x=year, y=n, group=1)) + geom_line() +
+1701084334214:geom_point() + facet_wrap(~Category)
+1701084352311:ggplot(data=category_sales_count, aes(x=year, y=n, group=1)) + geom_line() +
+1701084352313:geom_point() + facet_wrap(~Category) + labs(title="Categories-wise sales from 2015-2018")
+1701084839327:category_sales_count %>%
+1701084839329:arrange(desc(n))
+1701086179555:category_sales_count %>%
+1701086179557:arrange(desc(n)) %>%
+1701086179557:group_by(year)
+1701086364069:ggplot(data=category_sales_count, aes(fill=category, y=n, x=year))+
+1701086364071:geom_bar(position="stack", stat="identity")
+1701086373352:ggplot(data=category_sales_count, aes(fill=Category, y=n, x=year))+
+1701086373353:geom_bar(position="stack", stat="identity")
+1701086407770:ggplot(data=category_sales_count, aes(fill=n, y=Category, x=year))+
+1701086407772:geom_bar(position="stack", stat="identity")
+1701086418338:ggplot(data=category_sales_count, aes(fill=Category, y=n, x=year))+
+1701086418339:geom_bar(position="stack", stat="identity")
+1701089426288:ggplot(data=category_sales_count, aes(fill=year, y=n, x=category))+
+1701089426290:geom_bar(position="stack", stat="identity")
+1701089436436:ggplot(data=category_sales_count, aes(fill=year, y=n, x=Category))+
+1701089436438:geom_bar(position="stack", stat="identity")
+1701089499520:ggplot(data=category_sales_count, aes(fill=Category, y=n, x=year))+
+1701089499521:geom_bar(position="stack", stat="identity")
+1701089715117:city_wise_sales <- sales_data %>%
+1701089715119:group_by(City) %>%
+1701089715119:select(Profit, Sales, Category)
+1701089725268:city_wise_sales <- sales_data %>%
+1701089725269:group_by(City) %>%
+1701089725269:select(Profit, Sales, Category, City)
+1701089747082:View(city_wise_sales)
+1701089806318:city_wise_sales <- sales_data %>%
+1701089806319:select(Profit, Sales, Category, City) %>%
+1701089806319:group_by(City)
+1701089809500:View(city_wise_sales)
+1701089828112:n_distinct(City)
+1701089842781:n_distinct(city_wise_sales$City)
+1701089877965:max(city_wise_sales$Sales)
+1701089924766:city_wise_sales %>%
+1701089924767:group_by(City) %>%
+1701089924767:summary()
+1701089979980:filter(city_wise_sales, max(city_wise_sales$Sales))
+1701090378329:city_max_sales <- city_wise_sales %>%
+1701090378330:group_by(City) %>%
+1701090378330:summarize(max_sales = max(Sales)) %>%
+1701090378331:arrange(desc(max_sales)) %>%
+1701090378331:slice(1)
+1701090390476:head(city_max_sales)
+1701090604073:View(city_max_sales)
+1701090726811:cumbum_data <- city_wise_sales %>%
+1701090726812:filter(City == "Cumbum")
+1701090782439:select(Profit, Sales, Category, City, Order_date) %>%
+1701090782440:group_by(City)
+1701090786992:city_wise_sales <- sales_data %>%
+1701090786993:select(Profit, Sales, Category, City, Order_date) %>%
+1701090786993:group_by(City)
+1701090790407:city_max_sales <- city_wise_sales %>%
+1701090790407:group_by(City) %>%
+1701090790407:summarize(max_sales = max(Sales)) %>%
+1701090790408:arrange(desc(max_sales)) %>%
+1701090790408:slice(1)
+1701090790419:head(city_max_sales)
+1701090809704:city_wise_sales <- sales_data %>%
+1701090809705:select(Profit, Sales, Category, City, year) %>%
+1701090809705:group_by(City)
+1701090813020:city_max_sales <- city_wise_sales %>%
+1701090813021:group_by(City) %>%
+1701090813021:summarize(max_sales = max(Sales)) %>%
+1701090813021:arrange(desc(max_sales)) %>%
+1701090813021:slice(1)
+1701090813032:head(city_max_sales)
+1701090904657:cumbum_data <- city_wise_sales %>%
+1701090904659:filter(City == "Cumbum")
+1701090904663:ggplot(cumbum_data, aes(x=year, y=Sales)) + geom_line() +
+1701090904663:labs(title = "Sales Trends in Cumbum", x = "year", y = "Sales") +
+1701090904663:theme_minimal()
+1701090932070:ggplot(cumbum_data, aes(x=year, y=Sales)) + geom_line() + geom_point()
+1701090932177:labs(title = "Sales Trends in Cumbum", x = "year", y = "Sales") +
+1701090932177:theme_minimal()
+1701090977900:ggplot(cumbum_data, aes(x=year, y=Sales)) + geom_point()+geom_smooth()+
+1701090977901:labs(title = "Sales Trends in Cumbum", x = "year", y = "Sales") +
+1701090977901:theme_minimal()
+1701091168286:city_min_sales <- city_wise_sales %>%
+1701091168288:group_by(City) %>%
+1701091168288:summarize(min_sales = min(Sales)) %>%
+1701091168288:arrange(aesc(max_sales)) %>%
+1701091168288:slice(1)
+1701091183280:city_min_sales <- city_wise_sales %>%
+1701091183281:group_by(City) %>%
+1701091183281:summarize(min_sales = min(Sales)) %>%
+1701091183281:slice(1)
+1701091183289:head(city_min_sales)
+1701091301917:ggplot(bodi_data, aes(x=year, y=Sales)) + geom_point()+geom_smooth()+
+1701091301919:labs(title = "Sales Trends in Bodi", x = "year", y = "Sales") +
+1701091301920:theme_minimal()
+1701091308399:bodi_data <- city_wise_sales %>%
+1701091308399:filter(City == "Bodi")
+1701091308412:ggplot(bodi_data, aes(x=year, y=Sales)) + geom_point()+geom_smooth()+
+1701091308413:labs(title = "Sales Trends in Bodi", x = "year", y = "Sales") +
+1701091308413:theme_minimal()
+1701091362663:ggplot(bodi_data, aes(x=Category, y=year())) + geom_point()+geom_smooth()+
+1701091362665:labs(title = "Sales Trends in Bodi", x = "year", y = "Sales") +
+1701091362665:theme_minimal()
+1701091384732:ggplot(bodi_data, aes(x=Category, y=year)) + geom_point()+geom_smooth()+
+1701091384733:labs(title = "Sales Trends in Bodi", x = "year", y = "Sales") +
+1701091384733:theme_minimal()
+1701091408197:ggplot(bodi_data, aes(x=Category, y=year, color=Categpry)) + geom_point()+geom_smooth()+
+1701091408199:labs(title = "Sales Trends in Bodi", x = "year", y = "Sales") +
+1701091408199:theme_minimal()
+1701091416779:ggplot(bodi_data, aes(x=Category, y=year, color=Category)) + geom_point()+geom_smooth()+
+1701091416780:labs(title = "Sales Trends in Bodi", x = "year", y = "Sales") +
+1701091416780:theme_minimal()
+1701091452716:%>% head(bodi_data)
+1701091460918:head(bodi_data)
+1701091477041:ggplot(bodi_data, aes(x=Category, y=year, color=Sales)) + geom_point()+geom_smooth()+
+1701091477042:labs(title = "Sales Trends in Bodi", x = "year", y = "Sales") +
+1701091477042:theme_minimal()
+1701091493811:ggplot(bodi_data, aes(x=Category, y=year, color=Sales)) + geom_col()+geom_smooth()+
+1701091493813:labs(title = "Sales Trends in Bodi", x = "year", y = "Sales") +
+1701091493813:theme_minimal()
+1701091512146:ggplot(bodi_data, aes(x=Sales, y=year, color=Category)) + geom_col()+geom_smooth()+
+1701091512147:labs(title = "Sales Trends in Bodi", x = "year", y = "Sales") +
+1701091512147:theme_minimal()
+1701091533259:ggplot(bodi_data, aes(x=Sales, y=year, color=Category)) + geom_col()+
+1701091533260:labs(title = "Sales Trends in Bodi", x = "year", y = "Sales") +
+1701091533260:theme_minimal()
+1701091553493:ggplot(bodi_data, aes(x=Sales, y=year, fill=Category)) + geom_col()+
+1701091553495:labs(title = "Sales Trends in Bodi", x = "year", y = "Sales") +
+1701091553495:theme_minimal()
+1701093317071:total_sales_by_category <- bodi_data %>%
+1701093317073:group_by(Category) %>%
+1701093317074:summarize(total_sales = sum(Sales))
+1701093326068:head(total_sales_by_category)
+1701093843121:total_sales_by_category(bodi) <- bodi_data %>%
+1701093843122:group_by(Category, year) %>%
+1701093843122:summarize(total_sales = sum(Sales))
+1701093860371:bodi_data <- city_wise_sales %>%
+1701093860372:filter(City == "Bodi")
+1701093860378:ggplot(bodi_data, aes(x=Sales, y=year, fill=Category)) + geom_col()+
+1701093860379:labs(title = "Sales Trends in Bodi", x = "year", y = "Sales") +
+1701093860379:theme_minimal()
+1701093864400:total_sales_by_category(bodi) <- bodi_data %>%
+1701093864401:group_by(Category, year) %>%
+1701093864401:summarize(total_sales = sum(Sales))
+1701093886320:total_sales_by_category(bodi) <- bodi_data %>%
+1701093886320:group_by(Category, year) %>%
+1701093886321:summarize(total_sales = sum(Sales))
+1701093896898:total_sales_by_category <- bodi_data %>%
+1701093896899:group_by(Category, year) %>%
+1701093896899:summarize(total_sales = sum(Sales))
+1701093914715:total_sales_by_category_bodi <- bodi_data %>%
+1701093914716:group_by(Category, year) %>%
+1701093914716:summarize(total_sales = sum(Sales))
+1701093935954:head(total_sales_by_category_bodi)
+1701094085096:percentage_change_sales_bodi <- total_sales_by_category_bodi %>%
+1701094085097:mutate(pct_change = ((Sales/lag(Sales) - 1)*100))
+1701094123277:percentage_change_sales_bodi <- total_sales_by_category_bodi %>%
+1701094123279:mutate(pct_change = ((total_sales/lag(total_sales) - 1)*100))
+1701094136109:head(percentage_change_sales_bodi)
+1701094148728:View(percentage_change_sales_bodi)
+1701094285477:max_change_category <- percentage_change_sales_bodi %>%
+1701094285478:filter(pct_change == max(pct_change, na.rm = TRUE))
+1701094300143:head(max_change_category)
+1701094381459:print("Category with significant change in sales in Bodi:", max_change_category)
+1701094402024:print(max_change_category)
+1701156670071:ggplot(data=max_change_category)
+1701156792458:ggplot(penguins, aes(x=flipper_length_mm, y=body_mass_g)) +
+1701156792460:geom_point(aes(color=species)) +
+1701156792460:facet_grid(~species)
+1701156867990:ggplot(data=max_change_category, aes(x=Category, y=pct_change))+
+1701156867991:geom_col()+geom_point()
+1701156882956:ggplot(data=max_change_category, aes(x=Category, y=pct_change))+
+1701156882957:geom_col()+geom_point()+geom_line()
+1701157565685:ggplot(data=max_change_category, aes(x=Category))+
+1701157565687:geom_col(aes(y=total_sales, color="total_sales"))+
+1701157565687:geom_line(aes(y=pct_change, color="pct_change"))
+1701157601730:ggplot(data=max_change_category, aes(x=Category), color="blue")+
+1701157601731:geom_col(aes(y=total_sales, color="total_sales"))+
+1701157601731:geom_line(aes(y=pct_change, color="pct_change"))
+1701157625446:ggplot(data=max_change_category, aes(x=Category), color="blue")+
+1701157625448:geom_col(aes(y=total_sales, fill=total_sales))+
+1701157625448:geom_line(aes(y=pct_change, color="pct_change"))
+1701157655147:ggplot(data=max_change_category, aes(x=Category), color="blue")+
+1701157655149:geom_col(aes(y=total_sales, color="total_sales"))+
+1701157655149:geom_line(aes(y=pct_change, color="pct_change"))
+1701157709366:ggplot(data=max_change_category, aes(x=Category))+
+1701157709368:geom_col(aes(y=total_sales, color="total_sales", fill=total_sales))+
+1701157709368:geom_line(aes(y=pct_change, color="pct_change"))
+1701157738202:ggplot(data=max_change_category, aes(x=Category))+
+1701157738203:geom_col(aes(y=total_sales, color="total_sales", fill=Category))+
+1701157738203:geom_line(aes(y=pct_change, color="pct_change"))
+1701157778820:ggplot(data=max_change_category, aes(x=Category))+
+1701157778821:geom_col(aes(y=total_sales, color="total_sales", fill=Category), alpha=0.7)+
+1701157778822:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)
+1701157802419:ggplot(data=max_change_category, aes(x=Category))+
+1701157802420:#geom_col(aes(y=total_sales, color="total_sales", fill=Category), alpha=0.7)+
+1701157802420:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)
+1701157808669:ggplot(data=max_change_category, aes(x=Category))+
+1701157808670:geom_col(aes(y=total_sales, color="total_sales", fill=Category), alpha=0.7)+
+1701157808670:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)
+1701157851592:ggplot(data=max_change_category, aes(x=Category))+
+1701157851593:geom_col(aes(y=total_sales, color="total_sales", fill=Category), alpha=0.7)+
+1701157851593:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701157851593:scale_y_continuous(sec.axis = sec_axis(~ ., name = "Total Sales"), labels = comma) +
+1701157851593:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701157851594:x = "Year",
+1701157851594:y = "Percentage Change",
+1701157851594:fill = "Legend")
+1701157862869:ggplot(data=max_change_category, aes(x=Category))+
+1701157862870:geom_col(aes(y=total_sales, color="total_sales", fill=Category), alpha=0.7)+
+1701157862871:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701157862871:scale_y_continuous(sec.axis = sec_axis(~ ., name = "Total Sales")) +
+1701157862871:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701157862871:x = "Year",
+1701157862871:y = "Percentage Change",
+1701157862872:fill = "Legend")
+1701157902590:ggplot(data=max_change_category, aes(x=Category))+
+1701157902591:geom_col(aes(y=total_sales, color="total_sales", fill=Category), alpha=0.7)+
+1701157902591:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701157902591:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701157902592:x = "Year",
+1701157902592:y = "Percentage Change",
+1701157902592:fill = "Legend")
+1701157956997:ggplot(data=max_change_category, aes(x=Year))+
+1701157957000:geom_col(aes(y=total_sales, color="total_sales", fill=Category), alpha=0.7)+
+1701157957000:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701157957000:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701157957001:x = "Year",
+1701157957001:y = "Percentage Change",
+1701157957001:fill = "Legend")
+1701157972211:ggplot(data=max_change_category, aes(x=Year))+
+1701157972212:geom_col(aes(y=total_sales, color="total_sales", fill=Category), alpha=0.7)+
+1701157972212:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701157972212:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701157972213:x = "Year",
+1701157972213:y = "Percentage Change",
+1701157972213:fill = "Legend")
+1701157977455:rlang::last_trace()
+1701157991877:ggplot(data=max_change_category, aes(x=year))+
+1701157991879:geom_col(aes(y=total_sales, color="total_sales", fill=Category), alpha=0.7)+
+1701157991880:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701157991880:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701157991881:x = "Year",
+1701157991881:y = "Percentage Change",
+1701157991881:fill = "Legend")
+1701158074545:ggplot(data=max_change_category, aes(x=year))+
+1701158074547:geom_col(aes(y=total_sales, fill=total_sales), alpha=0.7)+
+1701158074547:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701158074548:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701158074548:x = "Year",
+1701158074548:y = "Percentage Change",
+1701158074548:fill = "Legend")
+1701158095169:ggplot(data=max_change_category)
+1701158105500:head(max_change_category)
+1701158116323:View(max_change_category)
+1701158176373:View(percentage_change_sales_bodi)
+1701158204087:#Visualizing the data
+1701158204089:ggplot(data=percentage_change_sales_bodi, aes(x=year))+
+1701158204090:geom_col(aes(y=total_sales, fill=total_sales), alpha=0.7)+
+1701158204090:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701158204090:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701158204091:x = "Year",
+1701158204091:y = "Percentage Change",
+1701158204091:fill = "Legend")
+1701158270602:ggplot(data=percentage_change_sales_bodi, aes(x=year))+
+1701158270604:#geom_col(aes(y=total_sales, fill=total_sales), alpha=0.7)+
+1701158270604:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701158270605:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701158270605:x = "Year",
+1701158270605:y = "Percentage Change",
+1701158270605:fill = "Legend")
+1701158339073:ggplot(data=percentage_change_sales_bodi, aes(x=year))+
+1701158339074:#geom_col(aes(y=total_sales, fill=total_sales), alpha=0.7)+
+1701158339074:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701158339075:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701158339075:x = "Year",
+1701158339075:y = "Percentage Change",
+1701158339075:fill = "Legend") + theme_minimal() +
+1701158339076:scale_fill_manual(values = "blue") +
+1701158339076:scale_color_manual(values = "red") +
+1701158339076:theme(legend.position = "bottom")
+1701158346291:ggplot(data=percentage_change_sales_bodi, aes(x=year))+
+1701158346291:geom_col(aes(y=total_sales, fill=total_sales), alpha=0.7)+
+1701158346292:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701158346292:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701158346292:x = "Year",
+1701158346292:y = "Percentage Change",
+1701158346293:fill = "Legend") + theme_minimal() +
+1701158346293:scale_fill_manual(values = "blue") +
+1701158346293:scale_color_manual(values = "red") +
+1701158346293:theme(legend.position = "bottom")
+1701158356342:ggplot(data=percentage_change_sales_bodi, aes(x=year))+
+1701158356342:geom_col(aes(y=total_sales, fill=total_sales), alpha=0.7)+
+1701158356342:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701158356343:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701158356343:x = "Year",
+1701158356343:y = "Percentage Change",
+1701158356343:fill = "Legend") + theme_minimal() +
+1701158356344:scale_fill_manual(values = "blue") +
+1701158356344:scale_color_manual(values = "red") +
+1701158356344:theme(legend.position = "bottom")
+1701158376223:ggplot(data=percentage_change_sales_bodi, aes(x=year))+
+1701158376224:geom_col(aes(y=total_sales, fill=total_sales), alpha=0.7)+
+1701158376224:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701158376224:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701158376225:x = "Year",
+1701158376225:y = "Percentage Change",
+1701158376225:fill = "Legend") + theme_minimal()
+1701158583443:plot(percentage_change_sales_bodi, type="o", col="red", xlab=year, ylab=pct_change)
+1701158607758:plot(max_change_category, type="o", col="red", xlab=year, ylab=pct_change)
+1701158637308:ggplot(data=percentage_change_sales_bodi, aes(x=year))+
+1701158637309:geom_col(aes(y=total_sales, fill=total_sales), alpha=0.7)+
+1701158637310:geom_line(aes(y=pct_change, color="pct_change"), size=5)+
+1701158637310:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701158637310:x = "Year",
+1701158637310:y = "Percentage Change",
+1701158637311:fill = "Legend") + theme_minimal()
+1701160738587:ggplot(data=percentage_change_sales_bodi, aes(x=year))+
+1701160738588:geom_density(aes(y=pct_change, color=pct_change))+
+1701160738588:geom_col(aes(y=total_sales, fill=total_sales), alpha=0.7)+
+1701160738589:#geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701160738589:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701160738589:x = "Year",
+1701160738589:y = "Percentage Change",
+1701160738590:fill = "Legend") + theme_minimal()
+1701160754431:ggplot(data=percentage_change_sales_bodi, aes(x=year))+
+1701160754432:geom_density(aes(y=pct_change, color=pct_change))+
+1701160754432:#geom_col(aes(y=total_sales, fill=total_sales), alpha=0.7)+
+1701160754432:#geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701160754433:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701160754433:x = "Year",
+1701160754433:y = "Percentage Change",
+1701160754433:fill = "Legend") + theme_minimal()
+1701160779116:ggplot(data=percentage_change_sales_bodi, aes(x=Sales))+
+1701160779118:geom_density(aes(y=pct_change, color=pct_change))+
+1701160779118:#geom_col(aes(y=total_sales, fill=total_sales), alpha=0.7)+
+1701160779118:#geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701160779118:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701160779119:x = "Year",
+1701160779119:y = "Percentage Change",
+1701160779119:fill = "Legend") + theme_minimal()
+1701160802550:ggplot(data=percentage_change_sales_bodi, aes(x=total_sales))+
+1701160802550:geom_density(aes(y=pct_change, color=pct_change))+
+1701160802551:#geom_col(aes(y=total_sales, fill=total_sales), alpha=0.7)+
+1701160802551:#geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701160802551:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701160802551:x = "Year",
+1701160802552:y = "Percentage Change",
+1701160802552:fill = "Legend") + theme_minimal()
+1701160827698:ggplot(data=percentage_change_sales_bodi, aes(x=year))+
+1701160827699:#geom_density(aes(y=pct_change, color=pct_change))+
+1701160827699:geom_col(aes(y=total_sales, fill=total_sales), alpha=0.7)+
+1701160827700:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701160827700:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701160827700:x = "Year",
+1701160827700:y = "Percentage Change",
+1701160827701:fill = "Legend") + theme_minimal()
+1701160837952:geom_col(aes(y=total_sales, fill=total_sales), alpha=0.7)+
+1701160837953:geom_line(aes(y=pct_change, color=pct_change), size=1.5)+
+1701160837953:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701160837953:x = "Year",
+1701160837954:y = "Percentage Change",
+1701160837954:fill = "Legend") + theme_minimal()
+1701160846018:ggplot(data=percentage_change_sales_bodi, aes(x=year))+
+1701160846019:#geom_density(aes(y=pct_change, color=pct_change))+
+1701160846020:geom_col(aes(y=total_sales, fill=total_sales), alpha=0.7)+
+1701160846020:geom_line(aes(y=pct_change, color=pct_change), size=1.5)+
+1701160846020:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701160846020:x = "Year",
+1701160846021:y = "Percentage Change",
+1701160846021:fill = "Legend") + theme_minimal()
+1701160876181:ggplot(data=percentage_change_sales_bodi, aes(x=year))+
+1701160876183:#geom_density(aes(y=pct_change, color="pct_change"))+
+1701160876183:geom_col(aes(y=total_sales, fill=total_sales), alpha=0.7)+
+1701160876183:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701160876183:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701160876184:x = "Year",
+1701160876184:y = "Percentage Change",
+1701160876184:fill = "Legend") + theme_minimal()
+1701160948169:geom_col(aes(y=pct_change, fill=total_sales), alpha=0.7)+
+1701160948171:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701160948171:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701160948172:x = "Year",
+1701160948172:y = "Percentage Change",
+1701160948172:fill = "Legend") + theme_minimal()
+1701160951971:ggplot(data=percentage_change_sales_bodi, aes(x=year))+
+1701160951971:#geom_density(aes(y=pct_change, color="pct_change"))+
+1701160951972:geom_col(aes(y=pct_change, fill=total_sales), alpha=0.7)+
+1701160951972:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701160951972:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701160951972:x = "Year",
+1701160951972:y = "Percentage Change",
+1701160951972:fill = "Legend") + theme_minimal()
+1701161005006:ggplot(data=percentage_change_sales_bodi, aes(x=year))+
+1701161005007:#geom_density(aes(y=pct_change, color="pct_change"))+
+1701161005007:geom_col(aes(y=pct_change, fill=total_sales), alpha=0.7)+
+1701161005007:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701161005008:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701161005008:x = "Year",
+1701161005008:y = "Percentage Change",
+1701161005008:fill = "Legend") + theme_minimal() + facet_wrap(~Category)
+1701161146510:ggplot(data=max_change_category, aes(x=Category))+ geom_col(aes(y=pct_change, fill=total_sales))
+1701161307979:ggplot(data=max_change_category, aes(x=Category),angle=45)+ geom_col(aes(y=pct_change, fill=total_sales))+
+1701161307981:labs(title = "Percentage change in category-wise sales",
+1701161307981:x = "Categories",
+1701161307981:y = "Percentage Change")
+1701161327080:ggplot(data=max_change_category, aes(x=Category),angle=90)+ geom_col(aes(y=pct_change, fill=total_sales))+
+1701161327081:labs(title = "Percentage change in category-wise sales",
+1701161327081:x = "Categories",
+1701161327081:y = "Percentage Change")
+1701161451151:ggplot(data=max_change_category, aes(x=Category))+ geom_col(aes(y=pct_change, fill=total_sales))+
+1701161451153:labs(title = "Percentage change in category-wise sales",
+1701161451153:x = "Categories",
+1701161451153:y = "Percentage Change") + theme(axis.text.x = element_text(angle = 90))
+1701161458880:ggplot(data=max_change_category, aes(x=Category))+ geom_col(aes(y=pct_change, fill=total_sales))+
+1701161458880:labs(title = "Percentage change in category-wise sales",
+1701161458881:x = "Categories",
+1701161458881:y = "Percentage Change") + theme(axis.text.x = element_text(angle = 45))
+1701161486918:ggplot(data=max_change_category, aes(x=Category))+ geom_col(aes(y=pct_change, fill=total_sales))+
+1701161486919:labs(title = "Percentage change in category-wise sales",
+1701161486919:x = "Categories",
+1701161486919:y = "Percentage Change") + theme(axis.text.x = element_text(size = 10, angle = 45))
+1701161495065:ggplot(data=max_change_category, aes(x=Category))+ geom_col(aes(y=pct_change, fill=total_sales))+
+1701161495065:labs(title = "Percentage change in category-wise sales",
+1701161495065:x = "Categories",
+1701161495066:y = "Percentage Change") + theme(axis.text.x = element_text(size = 5, angle = 45))
+1701161529638:ggplot(data=max_change_category, aes(x=Category))+ geom_col(aes(y=pct_change, fill=total_sales))+
+1701161529639:labs(title = "Percentage change in category-wise sales",
+1701161529639:x = "Categories",
+1701161529640:y = "Percentage Change") + theme(axis.text.x = element_text(size = 7,
+1701161529640:face="bold", angle = 45))
+1701161626487:ggplot(data=max_change_category, aes(x=Category))+ geom_col(aes(y=pct_change, fill=total_sales))+
+1701161626489:labs(title = "Percentage change in category-wise sales",
+1701161626489:x = "Categories",
+1701161626489:y = "Percentage Change") + theme(axis.text.x = element_text(size = 7, hjust = 1,
+1701161626489:face="bold", angle = 45))
+1701161626596:#It can be seen that sales of eggs, meat and fish shows significant changes in sales over past 4 years
+1701161635153:ggplot(data=max_change_category, aes(x=Category))+ geom_col(aes(y=pct_change, fill=total_sales))+
+1701161635154:labs(title = "Percentage change in category-wise sales",
+1701161635154:x = "Categories",
+1701161635154:y = "Percentage Change") + theme(axis.text.x = element_text(size = 10, hjust = 1,
+1701161635154:face="bold", angle = 45))
+1701161765743:ggplot(data=max_change_category, aes(x=Category))+ geom_col(aes(y=pct_change, fill=total_sales))+
+1701161765744:labs(title = "Percentage change in category-wise sales",
+1701161765744:x = "Categories",
+1701161765745:y = "Percentage Change") + theme(axis.text.x = element_text(size = 10, hjust = 1,
+1701161765745:face="bold", angle = 45),
+1701161765745:axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701161912321:View(city_wise_sales)
+1701161952540:city_wise_sales <- sales_data %>%
+1701161952541:select(Profit, Sales, Category, City, year) %>%
+1701161952541:group_by(City)
+1701162094095:total_sales_by_city <- city_wise_sales %>%
+1701162094096:group_by(City, year) %>%
+1701162094096:summarize(total_sales_city = sum(Sales))
+1701162113710:View(total_sales_by_city)
+1701162261013:ggplot(data=total_sales_by_city, aes(x=year)) +
+1701162261014:geom_col(aes(y=Sales)) + facet_wrap(~City)
+1701162348376:ggplot(data=total_sales_by_city, aes(x=year)) +
+1701162348376:geom_col(aes(y=total_sales_city, fill=total_sales_city)) + facet_wrap(~City)
+1701162442618:ggplot(data=total_sales_by_city, aes(x=year)) +
+1701162442619:geom_point(aes(y=total_sales_city, fill=total_sales_city)) +
+1701162442619:facet_wrap(~City)+geom_smooth()
+1701162475985:ggplot(data=total_sales_by_city, aes(x=year)) +
+1701162475985:geom_smooth(aes(y=total_sales_city, fill=total_sales_city)) +
+1701162475986:facet_wrap(~City)
+1701162491416:ggplot(data=total_sales_by_city, aes(x=year)) +
+1701162491417:geom_col(aes(y=total_sales_city, fill=total_sales_city)) +
+1701162491418:facet_wrap(~City)
+1701162531615:ggplot(data=max_change_category, aes(x=Category))+ geom_col(aes(y=pct_change, fill=total_sales))+
+1701162531616:labs(title = "Percentage change in category-wise sales",
+1701162531617:x = "Categories",
+1701162531617:y = "Percentage Change") + theme(axis.text.x = element_text(size = 10, hjust = 1,
+1701162531617:face="bold", angle = 45),
+1701162531617:axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701167796733:ggplot(data=max_change_category, aes(x=Category))+ geom_col(aes(y=pct_change, fill=total_sales))+
+1701167796734:labs(title = "Percentage change in category-wise sales in Bodi",
+1701167796734:x = "Categories",
+1701167796735:y = "Percentage Change") + theme(axis.text.x = element_text(size = 10, hjust = 1,
+1701167796735:face="bold", angle = 45),
+1701167796735:axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701167881297:ggplot(data=percentage_change_sales_bodi, aes(x=year))+
+1701167881298:#geom_density(aes(y=pct_change, color="pct_change"))+
+1701167881299:geom_col(aes(y=pct_change, fill=total_sales), alpha=0.7)+
+1701167881299:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701167881299:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701167881299:x = "Year",
+1701167881300:y = "Percentage Change",
+1701167881300:fill = "Legend") + theme_minimal() + facet_wrap(~Category)
+1701168065066:View(city_wise_sales)
+1701168082237:city_wise_sales <- sales_data %>%
+1701168082238:select(Profit, Sales, Category, City, year,Discount) %>%
+1701168082238:group_by(City)
+1701168085479:View(city_wise_sales)
+1701168243151:average_discount <- sales_data %>%
+1701168243153:group_by(Categories) %>%
+1701168243153:summarise(mean(Discount))
+1701168255064:average_discount <- sales_data %>%
+1701168255065:group_by(Category) %>%
+1701168255065:summarise(mean(Discount)
+1701168273331:average_discount <- sales_data %>%
+1701168298266:average_discount <- sales_data %>%
+1701168298267:group_by(Category) %>%
+1701168298267:summarise(mean(Discount))
+1701168302065:head(average_discount)
+1701168316719:View(average_discount)
+1701168421899:average_discount <- sales_data %>%
+1701168421900:group_by(Category, year) %>%
+1701168421900:summarise(mean(Discount))
+1701168559164:ggplot(data=average_discount, aes(x=year, y=Discount))+
+1701168559165:geom_col()+facet_wrap(~Category)
+1701168578696:ggplot(data=average_discount, aes(x=year, y=mean(Discount))+
+1701168578697:geom_col()+facet_wrap(~Category)
+1701168604915:ggplot(data=average_discount, aes(x=year, y=mean(Discount)))+
+1701168650015:ggplot(data=average_discount, aes(x=year))+
+1701168650015:geom_col(aes(y=mean(Discount)))+facet_wrap(~Category)
+1701168665581:average_discount <- sales_data %>%
+1701168665582:group_by(Category, year) %>%
+1701168665582:summarise(mean_discount=mean(Discount))
+1701168685231:ggplot(data=average_discount, aes(x=year))+
+1701168685231:geom_col(aes(y=mean_discount))+facet_wrap(~Category)
+1701168706010:ggplot(data=average_discount, aes(x=year, fill=mean_discount))+
+1701168706012:geom_col(aes(y=mean_discount))+facet_wrap(~Category)
+1701170983495:ggplot(data=average_discount, aes(x=Category, fill=mean_discount))+
+1701170983497:geom_col(aes(y=mean_discount))
+1701171006660:ggplot(data=average_discount, aes(x=Category, fill=mean_discount))+
+1701171006662:geom_col(aes(y=mean_discount)) +facet_wrap(~year)
+1701171158059:ggplot(data=average_discount, aes(x=Category, fill=mean_discount))+
+1701171158060:geom_col(aes(y=mean_discount)) +
+1701171158061:labs(title = "Average discount on various categories",
+1701171158061:x = "Categories",
+1701171158061:y = "Average Disocunt") +
+1701171158061:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701171202438:ggplot(data=average_discount, aes(x=Category, fill=mean_discount))+
+1701171202439:geom_col(aes(y=mean_discount)) +
+1701171202439:labs(title = "Average discount on various categories",
+1701171202439:x = "Categories",
+1701171202439:y = "Average Disocunt") +
+1701171202440:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold")) + facet_grid(~year)
+1701171609091:profitable_category <- sales_data %>%
+1701171609093:group_by(Category, year) %>%
+1701171609093:summarise(average_profit = mean(Profit))
+1701171609173:head(profitable_category)
+1701171680870:ggplot(data=average_discount, aes(x=year, fill=mean_discount))+
+1701171680871:geom_col(aes(y=mean_discount))+facet_wrap(~Category)
+1701171844889:ggplot(data=average_discount, aes(x=Category, fill=mean_discount))+
+1701171844890:geom_col(aes(y=mean_discount)) +
+1701171844890:labs(title = "Average discount on various categories",
+1701171844890:x = "Categories",
+1701171844891:y = "Average Disocunt") +
+1701171844891:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold")) + facet_grid(~year)
+1701171890141:ggplot(data=profitable_category, aes(x=Category, fill=average_profit))+
+1701171890142:geom_col(aes(y=average_profit))+facet_wrap(~Category)
+1701171915535:ggplot(data=profitable_category, aes(x=year, fill=average_profit))+
+1701171915535:geom_col(aes(y=average_profit))+facet_wrap(~Category)
+1701171995467:ggplot(data=profitable_category, aes(x=Category, fill=average_profit))+
+1701171995469:geom_col(aes(y=average_profit)) +
+1701171995469:labs(title = "Average profit on various categories",
+1701171995469:x = "Categories",
+1701171995469:y = "Average Profitt") +
+1701171995470:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold")) +
+1701171995470:facet_grid(~year)
+1701172007272:ggplot(data=profitable_category, aes(x=Category, fill=average_profit))+
+1701172007273:geom_col(aes(y=average_profit)) +
+1701172007273:labs(title = "Average profit on various categories",
+1701172007273:x = "Categories",
+1701172007273:y = "Average Profitt") +
+1701172007274:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold")) +
+1701172007274:facet_wrap(~year)
+1701172042672:ggplot(data=profitable_category, aes(x=year, fill=average_profit))+
+1701172042673:geom_col(aes(y=average_profit))+facet_wrap(~Category)
+1701172248639:ggplot(data=average_discount, aes(x=Category, fill=mean_discount))+
+1701172248640:geom_col(aes(y=mean_discount)) +
+1701172248640:labs(title = "Average discount on various categories",
+1701172248641:x = "Categories",
+1701172248641:y = "Average Disocunt") +
+1701172248641:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold")) +
+1701172248641:facet_grid(~year)
+1701172316168:ggplot(data=profitable_category, aes(x=year, fill=average_profit))+
+1701172316170:geom_col(aes(y=average_profit))+facet_wrap(~Category) +
+1701172316170:labs(title = "Average profit on various categories",
+1701172316170:x = "Categories",
+1701172316171:y = "Average Profit") +
+1701172316171:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701172455382:average_sales <- sales_data %>%
+1701172455383:group_by(Category, year) %>%
+1701172455383:summarise(average_sales=mean(Sales))
+1701172466297:View(average_sales)
+1701174771170:average_categoric_sales <- sales_data %>%
+1701174771171:group_by(Category, year) %>%
+1701174771172:summarise(average_sales=mean(Sales))
+1701174771220:View(average_categoric_sales)
+1701175210327:ggplot(data=sales_data) + geom_point(mapping= aes(x=Sales, y=Profit), colr="red")
+1701175260462:ggplot(data=sales_data) + geom_point(mapping= aes(x=Sales, y=Profit), colr="red") +
+1701175260463:geom_smooth()
+1701175271296:ggplot(data=sales_data) + geom_point(mapping= aes(x=Sales, y=Profit), color="red") +
+1701175271296:geom_smooth()
+1701175334111:ggplot(data=sales_data) + geom_point(mapping= aes(x=Sales, y=Profit, color=Discount))
+1701175364179:ggplot(data=sales_data) + geom_point(mapping= aes(x=Sales, y=Profit, color=Discount))+
+1701175364179:facet_wrap(~Category)
+1701175432010:cor(sales_data$Sales, sales_data$Profit)
+1701175452126:cor(sales_data$Sales, sales_data$Discount)
+1701175466890:ggplot(data=sales_data) + geom_point(mapping= aes(x=Sales, y=Discount, color=Discount))+
+1701175466890:facet_wrap(~Category)
+1701175487346:ggplot(data=sales_data) + geom_point(mapping= aes(x=Sales, y=Discount))+
+1701175487347:facet_wrap(~Category)
+1701175497197:cor(sales_data$Sales, sales_data$Discount)
+1701175529909:ggplot(data=sales_data) + geom_point(mapping= aes(x=Sales, y=Profit, color=Discount))+
+1701175529910:facet_wrap(~Category)
+1701175541242:ggplot(data=average_categoric_sales, aes(x=year, fill=average_sales))+
+1701175541242:geom_col(aes(y=average_sales))+facet_wrap(~Category) +
+1701175541242:labs(title = "Average sales on various categories",
+1701175541242:x = "Categories",
+1701175541243:y = "Average Sales") +
+1701175541243:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701175610909:ggplot(data=average_categoric_sales, aes(x=year, fill=average_sales))+
+1701175610910:geom_col(aes(y=average_sales))+
+1701175610910:labs(title = "Average sales on various categories",
+1701175610910:x = "Categories",
+1701175610911:y = "Average Sales") +
+1701175610911:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701175655789:ggplot(data=average_categoric_sales, aes(x=year))+
+1701175655790:geom_col(aes(y=average_sales))+
+1701175655790:labs(title = "Average sales on various categories",
+1701175655791:x = "Categories",
+1701175655791:y = "Average Sales") +
+1701175655791:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701175655897:#this shows that sales have decrease
+1701175687389:ggplot(data=average_categoric_sales, aes(x=year, fill=average_sales))+
+1701175687391:geom_col(aes(y=average_sales))+facet_wrap(~Category) +
+1701175687391:labs(title = "Average sales on various categories",
+1701175687391:x = "Categories",
+1701175687391:y = "Average Sales") +
+1701175687392:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701175687772:#this shows that sal
+1701175724396:ggplot(data=sales_data) + geom_point(mapping= aes(x=Sales, y=Profit, color=Discount))+
+1701175724397:facet_wrap(~Category)
+1701175724912:cor(sales_data$Sales, sales_data$Profit)
+1701175724912:cor(sales_data$Sales, sales_data$Discount)
+1701176516032:cor(sales_data$Profit,sales_data$Discount)
+1701176973677:profit_summary <- sales_data %>%
+1701176973678:group_by(year) %>%
+1701176973678:summarise(min(Sales), max(Sales), min(Profit), max(Profit))
+1701176973703:head(profit_summary)
+1701177137463:profit_summary <- sales_data %>%
+1701177137466:group_by(year) %>%
+1701177137466:summarise(min(Sales), max(Sales), min(Profit), max(Profit))
+1701177137492:head(profit_summary)
+1701177211593:profit_summary <- sales_data %>%
+1701177211595:group_by(year) %>%
+1701177211595:summarise(mean(Sales), mean(Profit), mean(Discount))
+1701177211606:head(profit_summary)
+1701177287574:category_sales_count <- sales_data %>%
+1701177287574:group_by(year) %>%
+1701177287574:count(Category)
+1701177287587:View(category_sales_count)
+1701177326112:ggplot(data=category_sales_count, aes(x=year, y=n, group=1)) + geom_line() +
+1701177326114:geom_point() + facet_wrap(~Category) + labs(title="Categories-wise sales from 2015-2018")
+1701177326586:category_sales_count %>%
+1701177326586:arrange(desc(n))
+1701249500534:ggplot(data=sales_data) + geom_point(mapping= aes(x=Sales, y=Profit, color=Discount))+
+1701249500537:facet_wrap(~Category)
+1701249554098:or(sales_data$Sales, sales_data$Profit)
+1701249562544:cor(sales_data$Sales, sales_data$Profit)
+1701249562546:cor(sales_data$Sales, sales_data$Discount)
+1701249579709:ggplot(data=sales_data) + geom_point(mapping= aes(x=Sales, y=Discountt, color=Profit))+
+1701249579709:facet_wrap(~Category)
+1701249588826:ggplot(data=sales_data) + geom_point(mapping= aes(x=Sales, y=Discount, color=Profit))+
+1701249588827:facet_wrap(~Category)
+1701249659963:profit_summary <- sales_data %>%
+1701249659964:group_by(year) %>%
+1701249659965:summarise(mean(Sales), mean(Profit), mean(Discount))
+1701249659975:head(profit_summary)
+1701249707758:category_sales_count <- sales_data %>%
+1701249707758:group_by(year) %>%
+1701249707758:count(Category)
+1701249707772:View(category_sales_count)
+1701249728511:ggplot(data=category_sales_count, aes(x=year, y=n, group=1)) + geom_line() +
+1701249728512:geom_point() + facet_wrap(~Category) + labs(title="Categories-wise sales from 2015-2018")
+1701249746961:category_sales_count %>%
+1701249746961:arrange(desc(n))
+1701249772026:category_sales_count <- sales_data %>%
+1701249772026:group_by(year) %>%
+1701249772027:count(Category)
+1701249772040:View(category_sales_count) %>%
+1701249772040:arrange(desc(n))
+1701249814476:max(category_sales_count)
+1701249828041:max(category_sales_count$n)
+1701250372723:category_sales_count %>%
+1701250372724:arrange(desc(n))
+1701250485367:ggplot(data=category_sales_count, aes(x=year, y=n, group=1)) + geom_line() +
+1701250485368:geom_point() + facet_wrap(~Category) + labs(title="Categories-wise sales from 2015-2018")
+1701250499000:ggplot(data=category_sales_count, aes(x=year, y=n)) + geom_line() +
+1701250499001:geom_point() + facet_wrap(~Category) + labs(title="Categories-wise sales from 2015-2018")
+1701250571503:ggplot(data=category_sales_count, aes(x=year, y=n, group=1)) + geom_line() +
+1701250571503:geom_point() + facet_wrap(~Category) + labs(title="Categories-wise sales from 2015-2018")
+1701250576900:ggplot(data=category_sales_count, aes(fill=Category, y=n, x=year))+
+1701250576901:geom_bar(position="stack", stat="identity") + labs(title="Increase in sales from 2015-2018")
+1701250673567:city_wise_sales <- sales_data %>%
+1701250673569:select(Profit, Sales, Category, City, year,Discount) %>%
+1701250673569:group_by(City)
+1701250677131:View(city_wise_sales)
+1701250758853:city_wise_sales %>%
+1701250758854:arrange(desc(Profit, Sales))
+1701250767729:city_wise_sales %>%
+1701250767730:arrange(desc(Profit))
+1701250783051:View(city_wise_sales)
+1701250860793:city_wise_sales %>%
+1701250860794:select(max(Sales), City) %>%
+1701250860795:head(city_wise_sales)
+1701250880345:city_wise_sales %>%
+1701250880345:summarise(max(Sales), City) %>%
+1701250880345:head(city_wise_sales)
+1701250915897:total_sales_by_city <- city_wise_sales %>%
+1701250915898:group_by(City, year) %>%
+1701250915898:summarize(total_sales_city = sum(Sales))
+1701250915997:View(total_sales_by_city)
+1701250944616:ggplot(data=total_sales_by_city, aes(x=year)) +
+1701250944617:geom_col(aes(y=total_sales_city, fill=total_sales_city)) +
+1701250944617:facet_wrap(~City)
+1701251234898:city_max_sales <- city_wise_sales %>%
+1701251234899:group_by(City) %>%
+1701251234899:summarize(max_sales = max(Sales)) %>%
+1701251234899:arrange(desc(max_sales)) %>%
+1701251234900:slice(1)
+1701251234941:head(city_max_sales)
+1701252728329:ggplot(data=total_sales_by_city, aes(x=year)) +
+1701252728330:geom_col(aes(y=total_sales_city, fill=total_sales_city)) +
+1701252728331:facet_wrap(~City)
+1701252923944:ggplot(data=total_sales_by_city, aes(x=year)) +
+1701252923945:geom_col(aes(y=total_sales_city, fill=total_sales_city)) +
+1701252923946:facet_wrap(~City) + labs(title = "City-wise sales (2015-2018)", x="Year", y="Total Sales")
+1701255553222:ggplot(data=total_sales_by_city, aes(x=year)) +
+1701255553224:geom_col(aes(y=total_sales_city, fill=total_sales_city)) +
+1701255553224:facet_wrap(~City) + labs(title = "City-wise sales (2015-18)", x="Year", y="Total Sales")
+1701257520154:city_max_sales <- total_sales_by_city %>%
+1701257520155:group_by(City) %>%
+1701257520155:summarize(max_sales = max(Sales)) %>%
+1701257520156:arrange(desc(max_sales)) %>%
+1701257520156:slice(1)
+1701257564098:city_max_sales <- city_wise_sales %>%
+1701257564099:group_by(City) %>%
+1701257564099:summarize(max_sales = max(Sales)) %>%
+1701257564099:arrange(desc(max_sales)) %>%
+1701257564100:slice(1)
+1701257564115:head(city_max_sales)
+1701257626363:max(total_sales_by_city$total_sales_city)
+1701257726418:city_max_sales <- total_sales_by_city %>%
+1701257726420:group_by(City) %>%
+1701257726420:summarize(max_sales = max(Sales)) %>%
+1701257726421:arrange(desc(max_sales)) %>%
+1701257726421:slice(1)
+1701257763761:city_max_sales <- total_sales_by_city %>%
+1701257763762:group_by(City) %>%
+1701257763762:summarize(max_sales = max(total_sales_city)) %>%
+1701257763763:arrange(desc(max_sales)) %>%
+1701257763763:slice(1)
+1701257766583:head(city_max_sales)
+1701257825832:kanyakumari_data <- city_wise_sales %>%
+1701257825833:filter(City == "Kanyakumari")
+1701257825838:ggplot(cumbum_data, aes(x=year, y=Sales)) + geom_point()+geom_smooth()+
+1701257825838:labs(title = "Sales Trends in Kanyakumari", x = "year", y = "Sales") +
+1701257825838:theme_minimal()
+1701257847729:kanyakumari_data <- city_wise_sales %>%
+1701257847730:filter(City == "Kanyakumari")
+1701257847734:ggplot(cumbum_data, aes(x=year, y=Sales)) + geom_point()+
+1701257847735:labs(title = "Sales Trends in Kanyakumari", x = "year", y = "Sales") +
+1701257847735:theme_minimal()
+1701257863333:kanyakumari_data <- city_wise_sales %>%
+1701257863334:filter(City == "Kanyakumari")
+1701257863338:ggplot(cumbum_data, aes(x=year, y=Sales)) + geom_line()+
+1701257863338:labs(title = "Sales Trends in Kanyakumari", x = "year", y = "Sales") +
+1701257863338:theme_minimal()
+1701257884358:kanyakumari_data <- city_wise_sales %>%
+1701257884359:filter(City == "Kanyakumari")
+1701257884363:ggplot(cumbum_data, aes(x=year, y=Sales)) + geom_line()+ geom_col()+
+1701257884363:labs(title = "Sales Trends in Kanyakumari", x = "year", y = "Sales") +
+1701257884363:theme_minimal()
+1701257923029:kanyakumari_data <- city_wise_sales %>%
+1701257923031:filter(City == "Kanyakumari")
+1701257923034:ggplot(kanyakumari_data, aes(x=year, y=Sales, fill=Sales)) + geom_col()+
+1701257923035:labs(title = "Sales Trends in Kanyakumari", x = "year", y = "Sales") +
+1701257923035:theme_minimal()
+1701257931209:kanyakumari_data <- city_wise_sales %>%
+1701257931210:filter(City == "Kanyakumari")
+1701257931213:ggplot(kanyakumari_data, aes(x=year, y=Sales)) + geom_col()+
+1701257931214:labs(title = "Sales Trends in Kanyakumari", x = "year", y = "Sales") +
+1701257931214:theme_minimal()
+1701257969912:city_min_sales <- total_sales_by_city %>%
+1701257969914:group_by(City) %>%
+1701257969914:summarize(min_sales = min(total_sales_city)) %>%
+1701257969914:slice(1)
+1701257969923:head(city_min_sales)
+1701258029626:View(kanyakumari_data)
+1701258227624:kanyakumari_data %>%
+1701258227626:group_by(year) %>%
+1701258227626:summarise(avg_discount = mean(Discount), avg_profit = mean(Profit), avg_sales=mean(Sales))
+1701258400910:bodi_data <- city_wise_sales %>%
+1701258400911:filter(City == "Bodi")
+1701258400921:ggplot(bodi_data, aes(x=Sales, y=year, fill=Category)) + geom_col()+
+1701258400921:labs(title = "Sales Trends in Bodi", x = "year", y = "Sales") +
+1701258400922:theme_minimal()
+1701258478623:kanyakumari_data <- city_wise_sales %>%
+1701258478625:filter(City == "Kanyakumari")
+1701258478628:ggplot(kanyakumari_data, aes(x=year, y=Sales)) + geom_col()+
+1701258478629:labs(title = "Sales Trends in Kanyakumari", x = "year", y = "Sales") +
+1701258478629:theme_minimal()
+1701258504139:kanyakumari_data <- city_wise_sales %>%
+1701258504140:filter(City == "Kanyakumari")
+1701258504144:ggplot(kanyakumari_data, aes(x=year, y=Sales, fill=Category)) + geom_col()+
+1701258504144:labs(title = "Sales Trends in Kanyakumari", x = "year", y = "Sales") +
+1701258504144:theme_minimal()
+1701258516025:bodi_data <- city_wise_sales %>%
+1701258516027:filter(City == "Bodi")
+1701258516030:ggplot(bodi_data, aes(x=year, y=Sales, fill=Category)) + geom_col()+
+1701258516031:labs(title = "Sales Trends in Bodi", x = "year", y = "Sales") +
+1701258516031:theme_minimal()
+1701258536057:total_sales_by_category_bodi <- bodi_data %>%
+1701258536058:group_by(Category, year) %>%
+1701258536058:summarize(total_sales = sum(Sales))
+1701258558227:head(total_sales_by_category_bodi)
+1701258572924:percentage_change_sales_bodi <- total_sales_by_category_bodi %>%
+1701258572926:mutate(pct_change = ((total_sales/lag(total_sales) - 1)*100))
+1701258599345:View(total_sales_by_category_bodi)
+1701258623958:View(percentage_change_sales_bodi)
+1701258641592:max_change_category <- percentage_change_sales_bodi %>%
+1701258641592:filter(pct_change == max(pct_change, na.rm = TRUE))
+1701258641596:print("Category with significant change in sales in Bodi:")
+1701258641597:print(max_change_category)
+1701258672644:ggplot(data=percentage_change_sales_bodi, aes(x=year))+
+1701258672644:#geom_density(aes(y=pct_change, color="pct_change"))+
+1701258672645:geom_col(aes(y=pct_change, fill=total_sales), alpha=0.7)+
+1701258672645:geom_line(aes(y=pct_change, color="pct_change"), size=1.5)+
+1701258672645:labs(title = "Percentage Change and Total Sales Over 4 Years",
+1701258672645:x = "Year",
+1701258672646:y = "Percentage Change",
+1701258672646:fill = "Legend") + theme_minimal() + facet_wrap(~Category)
+1701258706272:ggplot(data=max_change_category, aes(x=Category))+ geom_col(aes(y=pct_change, fill=total_sales))+
+1701258706273:labs(title = "Percentage change in category-wise sales in Bodi",
+1701258706273:x = "Categories",
+1701258706274:y = "Percentage Change") + theme(axis.text.x = element_text(size = 10, hjust = 1,
+1701258706274:face="bold", angle = 45),
+1701258706274:axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701259052722:ggplot(data= total_sales_by_category, aes(x=Category, y=total_sales))+
+1701259052724:geom_col()+ labs(title = "Most sold categories",
+1701259052724:x = "Category",
+1701259052724:y = "Sales",
+1701259052725:fill = "Legend") + theme_minimal() + facet_wrap(~year)
+1701259511368:ggplot(data= total_sales_by_category, aes(x=Category, y=total_sales))+
+1701259511369:geom_col()+ labs(title = "Most sold categories",
+1701259511369:x = "Category",
+1701259511370:y = "Sales",
+1701259511370:fill = "Legend") + theme_minimal() + facet_wrap(~year) +
+1701259511370:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45))
+1701259543268:ggplot(data= total_sales_by_category, aes(x=Category, y=total_sales, fill=toatl_sales))+
+1701259543268:geom_col()+ labs(title = "Most sold categories",
+1701259543269:x = "Category",
+1701259543269:y = "Sales",
+1701259543269:fill = "Legend") + theme_minimal() + facet_wrap(~year) +
+1701259543269:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45))
+1701259552884:ggplot(data= total_sales_by_category, aes(x=Category, y=total_sales, fill=total_sales))+
+1701259552885:geom_col()+ labs(title = "Most sold categories",
+1701259552885:x = "Category",
+1701259552885:y = "Sales",
+1701259552885:fill = "Legend") + theme_minimal() + facet_wrap(~year) +
+1701259552886:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45))
+1701261435135:average_discount <- sales_data %>%
+1701261435136:group_by(Category, year) %>%
+1701261435136:summarise(mean_discount=mean(Discount))
+1701261435228:ggplot(data=average_discount, aes(x=year, fill=mean_discount))+
+1701261435228:geom_col(aes(y=mean_discount))+facet_wrap(~Category)
+1701261472446:ggplot(data= total_sales_by_category, aes(x=Category, y=total_sales, fill=total_sales))+
+1701261472447:geom_col()+ labs(title = "Most sold categories",
+1701261472448:x = "Category",
+1701261472448:y = "Sales",
+1701261472448:fill = "Legend") + theme_minimal() + facet_wrap(~year) +
+1701261472448:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45))
+1701261503834:ggplot(data=average_discount, aes(x=year, fill=mean_discount))+
+1701261503835:geom_col(aes(y=mean_discount))+facet_wrap(~Category)
+1701261580012:ggplot(data=average_discount, aes(x=year, fill=mean_discount))+
+1701261580013:geom_col(aes(y=mean_discount))+facet_wrap(~Category)+labs(title = "Average discount on categories")
+1701261591280:ggplot(data=average_discount, aes(x=Category, fill=mean_discount))+
+1701261591281:geom_col(aes(y=mean_discount)) +
+1701261591282:labs(title = "Average discount on various categories",
+1701261591282:x = "Categories",
+1701261591282:y = "Average Disocunt") +
+1701261591282:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold")) +
+1701261591283:facet_grid(~year)
+1701261611612:ggplot(data=average_discount, aes(x=Category, fill=mean_discount))+
+1701261611613:geom_col(aes(y=mean_discount)) +
+1701261611613:labs(title = "Average discount on various categories", x = "Categories",y = "Average Disocunt") +
+1701261611614:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold")) +
+1701261611614:facet_wrap(~year)
+1701261674298:ggplot(data=average_discount, aes(x=year, fill=mean_discount))+
+1701261674299:geom_col(aes(y=mean_discount))+facet_wrap(~Category)+labs(title = "Average discount on categories")
+1701261727513:ggplot(data=average_discount, aes(x=year, fill=mean_discount))+
+1701261727513:geom_col(aes(y=mean_discount))+facet_wrap(~Category)+labs(title = "Average discount on categories")
+1701261734277:geom_col(aes(y=mean_discount)) +
+1701261734278:labs(title = "Average discount on various categories", x = "Categories",y = "Average Disocunt") +
+1701261734278:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold")) +
+1701261734278:facet_wrap(~year)
+1701261746177:ggplot(data=average_discount, aes(x=Category, fill=mean_discount))+
+1701261746178:geom_col(aes(y=mean_discount)) +
+1701261746178:labs(title = "Average discount on various categories", x = "Categories",y = "Average Disocunt") +
+1701261746179:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold")) +
+1701261746179:facet_wrap(~year)
+1701261767094:ggplot(data=profitable_category, aes(x=year, fill=average_profit))+
+1701261767094:geom_col(aes(y=average_profit))+facet_wrap(~Category) +
+1701261767095:labs(title = "Average profit on various categories",
+1701261767095:x = "Categories",
+1701261767095:y = "Average Profit") +
+1701261767096:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701261767477:#This shows that discounts in all the categories have declined.
+1701261785210:ggplot(data=profitable_category, aes(x=Category, fill=average_profit))+
+1701261785210:geom_col(aes(y=average_profit)) +
+1701261785211:labs(title = "Average profit on various categories",
+1701261785211:x = "Categories",
+1701261785211:y = "Average Profit") +
+1701261785212:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold")) +
+1701261785212:facet_wrap(~year)
+1701261812745:ggplot(data=profitable_category, aes(x=Category, fill=average_profit))+
+1701261812746:geom_col(aes(y=average_profit)) +
+1701261812747:labs(title = "Average profit on various categories",
+1701261812747:x = "Categories",
+1701261812747:y = "Average Profit") +
+1701261812747:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701261865245:ggplot(data=average_categoric_sales, aes(x=year, fill=average_sales))+
+1701261865246:geom_col(aes(y=average_sales))+facet_wrap(~Category) +
+1701261865246:labs(title = "Average sales on various categories",
+1701261865246:x = "Categories",
+1701261865246:y = "Average Sales") +
+1701261865246:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701261865719:#this shows that sales have decreased over time for
+1701261909928:ggplot(data=average_categoric_sales, aes(x=year, fill=average_sales))+
+1701261909929:geom_col(aes(y=average_sales))+
+1701261909929:labs(title = "Average sales on various categories",
+1701261909929:x = "Categories",
+1701261909930:y = "Average Sales") +
+1701261909930:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701261910048:#this shows that sales have decreased over time for
+1701261921210:View(average_categoric_sales)
+1701262454673:head(profit_summary)
+1701262591953:arrange(desc(n))
+1701262596536:category_sales_count %>%
+1701262596537:arrange(desc(n))
+1701262637492:print(category_sales_count)
+1701262652819:View(category_sales_count)
+1701262736952:category_sales_count %>%
+1701262736953:group_by(year, Category) %>%
+1701262736953:summarise(min(n), max(n))
+1701262798890:category_sales_count %>%
+1701262798891:group_by(year, Category) %>%
+1701262798891:summarise(min(n), max(n))
+1701262833105:category_sales_count %>%
+1701262833106:group_by(year) %>%
+1701262833106:select(Category)
+1701262833331:summarise(min(n), max(n))
+1701262842872:category_sales_count %>%
+1701262842872:group_by(year) %>%
+1701262842873:select(Category) %>%
+1701262842873:summarise(min(n), max(n))
+1701262880558:category_sales_count %>%
+1701262880560:group_by(year) %>%
+1701262880560:select(Category, min(n), max(n))
+1701262917308:category_sales_count %>%
+1701262917310:group_by(year) %>%
+1701262917310:arrange(desc(n))
+1701262970392:profit_summary <- sales_data %>%
+1701262970393:group_by(year) %>%
+1701262970393:summarise(mean(Sales), mean(Profit), mean(Discount))
+1701262970405:head(profit_summary)
+1701263144650:gplot(data=category_sales_count, aes(x=year, y=n, group=1)) + geom_line() +
+1701263144652:geom_point() + facet_wrap(~Category) + labs(title="Categories-wise sales from 2015-2018")
+1701263149017:ggplot(data=category_sales_count, aes(x=year, y=n, group=1)) + geom_line() +
+1701263149018:geom_point() + facet_wrap(~Category) + labs(title="Categories-wise sales from 2015-2018")
+1701263458866:ggplot(data=total_sales_by_city, aes(x=year)) +
+1701263458867:geom_col(aes(y=total_sales_city, fill=total_sales_city)) +
+1701263458868:facet_wrap(~City) + labs(title = "City-wise sales (2015-18)", x="Year", y="Total Sales")
+1701263550098:max_change_category <- percentage_change_sales_bodi %>%
+1701263550100:filter(pct_change == max(pct_change, na.rm = TRUE))
+1701263550104:print("Category with significant change in sales in Bodi:")
+1701263550105:print(max_change_category)
+1701263606046:average_discount <- sales_data %>%
+1701263606048:group_by(Category, year) %>%
+1701263606049:summarise(mean_discount=mean(Discount))
+1701263606091:ggplot(data=average_discount, aes(x=year, fill=mean_discount))+
+1701263606092:geom_col(aes(y=mean_discount))+facet_wrap(~Category)+labs(title = "Average discount on categories")
+1701263664699:ggplot(data=average_discount, aes(x=Category, fill=mean_discount))+
+1701263664700:geom_col(aes(y=mean_discount)) +
+1701263664701:labs(title = "Average discount on various categories", x = "Categories",y = "Average Disocunt") +
+1701263664701:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold")) +
+1701263664701:facet_wrap(~year)
+1701264445683:ggplot(data=profitable_category, aes(x=Category, fill=average_profit))+
+1701264445687:geom_col(aes(y=average_profit)) +
+1701264445688:labs(title = "Average profit on various categories",
+1701264445688:x = "Categories",
+1701264445688:y = "Average Profit") +
+1701264445688:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701264527391:View(profitable_category)
+1701264578190:ggplot(data=profitable_category, aes(x=year, fill=average_profit))+
+1701264578192:geom_col(aes(y=average_profit))+facet_wrap(~Category) +
+1701264578192:labs(title = "Average profit on various categories",
+1701264578192:x = "Categories",
+1701264578193:y = "Average Profit") +
+1701264578193:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold")) +
+1701264578193:facet_wrap(~year)
+1701264624945:ggplot(data=profitable_category, aes(x=Category, fill=average_profit))+
+1701264624946:geom_col(aes(y=average_profit)) +
+1701264624946:labs(title = "Average profit on various categories",
+1701264624947:x = "Categories",
+1701264624947:y = "Average Profit") +
+1701264624947:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701264647359:ggplot(data=profitable_category, aes(x=Category, fill=average_profit))+
+1701264647360:geom_col(aes(y=average_profit)) + facet_wrap(~year)
+1701264647620:labs(title = "Average profit on various categories",
+1701264647620:x = "Categories",
+1701264647620:y = "Average Profit") +
+1701264647620:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701264678896:ggplot(data=profitable_category, aes(x=Category, fill=average_profit))+
+1701264678898:geom_col(aes(y=average_profit)) + facet_wrap(~year)
+1701264679226:labs(title = "Average profit on various categories",
+1701264679226:x = "Categories",
+1701264679226:y = "Average Profit") +
+1701264679227:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701264706658:ggplot(data=profitable_category, aes(x=Category, fill=average_profit))+
+1701264706659:geom_col(aes(y=average_profit)) + facet_wrap(~year)
+1701264706998:labs(title = "Average profit on various categories",
+1701264706998:x = "Categories",
+1701264706999:y = "Average Profit") +
+1701264706999:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 90), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701264773230:ggplot(data=profitable_category, aes(x=year, fill=average_profit))+
+1701264773231:geom_col(aes(y=average_profit))+facet_wrap(~Category) +
+1701264773232:labs(title = "Average profit on various categories",
+1701264773232:x = "Categories",
+1701264773232:y = "Average Profit") +
+1701264773232:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701264853459:ggplot(data=profitable_category, aes(x=Category, fill=average_profit))+
+1701264853460:geom_col(aes(y=average_profit)) + facet_wrap(~year)
+1701264854080:labs(title = "Most Profitable category year-wise",
+1701264854080:x = "Categories",
+1701264854080:y = "Average Profit") +
+1701264854080:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 90), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701264932020:average_categoric_sales <- sales_data %>%
+1701264932022:group_by(Category, year) %>%
+1701264932022:summarise(average_sales=mean(Sales))
+1701264932064:View(average_categoric_sales)
+1701264938872:ggplot(data=average_categoric_sales, aes(x=year, fill=average_sales))+
+1701264938873:geom_col(aes(y=average_sales))+
+1701264938873:labs(title = "Average sales on various categories",
+1701264938873:x = "Categories",
+1701264938874:y = "Average Sales") +
+1701264938874:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701264939066:#this shows that sales have increased over time for
+1701264969420:ggplot(data=average_categoric_sales, aes(x=year, fill=average_sales))+
+1701264969420:geom_col(aes(y=average_sales))+ facet_wrap(~Category)
+1701264969814:labs(title = "Average sales on various categories",
+1701264969814:x = "Categories",
+1701264969815:y = "Average Sales") +
+1701264969815:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701264969815:#this shows that sales have increased over time for
+1701326099497:View(bodi_data)
+1701326384964:ggplot(bodi_data, aes(x=year, y=Sales, fill=Category)) + geom_col()+
+1701326384965:labs(title = "Sales Trends in Bodi", x = "year", y = "Sales") +
+1701326384965:theme_minimal()
+1701326415280:View(total_sales_by_category_bodi)
+1701326439682:percentage_change_sales_bodi <- total_sales_by_category_bodi %>%
+1701326439682:mutate(pct_change = ((total_sales/lag(total_sales) - 1)*100))
+1701326439688:View(percentage_change_sales_bodi)
+1701326527830:ggplot(data=total_sales_by_category_bodi, aes(x=Category, y=total_sales))+facet_wrap(~year)
+1701326540466:ggplot(data=total_sales_by_category_bodi, aes(x=Category, y=total_sales))+facet_wrap(~year)+geom_col()
+1701326578495:ggplot(data=total_sales_by_category_bodi, aes(x=Category, y=total_sales, fill=total_sales))+facet_wrap(~year)+
+1701326578496:geom_col()
+1701326625593:ggplot(data=total_sales_by_category_bodi, aes(x=Category, y=total_sales, fill=total_sales))+facet_wrap(~year)+
+1701326632429:ggplot(data=total_sales_by_category_bodi, aes(x=Category, y=total_sales, fill=total_sales))+facet_wrap(~year)+
+1701326632429:geom_col()+labs(title="Year-wise sale trends in Bodi")+theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45))
+1701326647644:ggplot(data=total_sales_by_category_bodi, aes(x=Category, y=total_sales, fill=total_sales))+facet_wrap(~year)+
+1701326647644:geom_col()+labs(title="Year-wise sale trends in Bodi")+theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45))
+1701326695910:max_change_category <- percentage_change_sales_bodi %>%
+1701326695911:filter(pct_change == max(pct_change, na.rm = TRUE))
+1701326695915:print("Category with significant change in sales in Bodi:")
+1701326695915:print(max_change_category)
+1701326714835:ggplot(data=max_change_category, aes(x=Category))+ geom_col(aes(y=pct_change, fill=total_sales))+
+1701326714835:labs(title = "Percentage change in category-wise sales in Bodi",
+1701326714836:x = "Categories",
+1701326714836:y = "Percentage Change") + theme(axis.text.x = element_text(size = 10, hjust = 1,
+1701326714836:face="bold", angle = 45),
+1701326714836:axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701326794496:ggplot(data=total_sales_by_category_bodi, aes(x=Category, y=total_sales, fill=total_sales))+facet_wrap(~year)+
+1701326794497:geom_col()+labs(title="Year-wise sale trends in Bodi")+theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45))
+1701335907262:head(sales_data)
+1701335907331:colnames(sales_data)
+1701335907331:str(sales_data)
+1701336347652:cor(sales_data$Sales, sales_data$Profit)
+1701336347654:cor(sales_data$Sales, sales_data$Discount)
+1701336807915:ggplot(data=sales_data) + geom_point(mapping= aes(x=Sales, y=Profit, color=Discount))+
+1701336807917:facet_wrap(~Category)
+1701336913591:ggplot(data=sales_data) + geom_point(mapping= aes(x=Sales, y=Profit, color=Discount))+
+1701336913592:facet_wrap(~Category)+labs(title="Category-wise sales and prfoits (2015-18)")
+1701337156726:profit_summary <- sales_data %>%
+1701337156727:group_by(year) %>%
+1701337156727:summarise(mean(Sales), mean(Profit), mean(Discount))
+1701337156763:head(profit_summary)
+1701337609524:category_sales_count %>%
+1701337609526:group_by(year) %>%
+1701337609526:arrange(desc(n))
+1701337636557:category_sales_count %>%
+1701337636558:group_by(Category) %>%
+1701337636558:arrange(desc(n))
+1701337653570:ggplot(data=category_sales_count, aes(x=year, y=n, group=1)) + geom_line() +
+1701337653571:geom_point() + facet_wrap(~Category) + labs(title="Categories-wise sales from 2015-2018")
+1701337835289:ggplot(data=category_sales_count, aes(x=year, y=n, group=1)) + geom_line() +
+1701337835291:geom_point() + facet_wrap(~Category) + labs(title="Frequency of sales from 2015-2018", x="Year", y="No. of sales")
+1701338256085:ggplot(data=profitable_category, aes(x=Category, fill=average_profit))+
+1701338256086:geom_col(aes(y=average_profit)) + facet_wrap(~year)
+1701338256582:labs(title = "Most Profitable category year-wise",
+1701338256582:x = "Categories",
+1701338256582:y = "Average Profit") +
+1701338256582:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 90), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701338256583:#This shows that eggs, meat were most profitable in 2015 but in 2018 snacks were the most profitable
+1701338744513:ggplot(data=average_categoric_sales, aes(x=year, fill=average_sales))+
+1701338744514:geom_col(aes(y=average_sales))+ facet_wrap(~Category)
+1701338745200:labs(title = "Average sales on various categories",
+1701338745200:x = "Categories",
+1701338745201:y = "Average Sales") +
+1701338745201:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701338806733:ggplot(data=average_categoric_sales, aes(x=year, fill=average_sales))+
+1701338806734:geom_col(aes(y=average_sales))+ facet_wrap(~Category)
+1701338807160:labs(title = "Average sales on various categories",
+1701338807160:x = "Categories",
+1701338807160:y = "Average Sales") +
+1701338807161:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701338834632:ggplot(data=average_categoric_sales, aes(x=year, fill=average_sales))+
+1701338834633:geom_col(aes(y=average_sales))+ facet_wrap(~Category)+
+1701338834633:labs(title = "Average sales on various categories", x = "Categories", y = "Average Sales") +
+1701338834634:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701339236727:ggplot(data=total_sales_by_city, aes(x=year)) +
+1701339236728:geom_col(aes(y=total_sales_city, fill=total_sales_city)) +
+1701339236728:facet_wrap(~City) + labs(title = "City-wise sales (2015-18)", x="Year", y="Total Sales")
+1701339301048:city_min_sales <- total_sales_by_city %>%
+1701339301050:group_by(City) %>%
+1701339301050:summarize(min_sales = min(total_sales_city)) %>%
+1701339301050:slice(1)
+1701339301058:head(city_min_sales)
+1701339325076:View(total_sales_by_city)
+1701339445261:total_sales_by_city %>%
+1701339519025:summarise(min(total_sales_city)) %>%
+1701339531488:group_by(year)
+1701339718157:ggplot(data= total_sales_by_category, aes(x=Category, y=total_sales, fill=total_sales))+
+1701339718159:geom_col()+ labs(title = "Most sold categories",
+1701339718159:x = "Category",
+1701339718159:y = "Sales",
+1701339718159:fill = "Legend") + theme_minimal() + facet_wrap(~year) +
+1701339718159:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45))
+1701339727956:View(total_sales_by_category)
+1701344774291:View(total_sales_by_category_bodi)
+1701344785348:View(total_sales_by_category)
+1701344843021:ggplot(data= total_sales_by_category, aes(x=Category, y=total_sales, fill=total_sales))+
+1701344843022:geom_col()+ labs(title = "Most sold categories",
+1701344843022:x = "Category",
+1701344843023:y = "Sales",
+1701344843023:fill = "Legend") + theme_minimal() + facet_wrap(~year) +
+1701344843023:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45))
+1701344860061:ggplot(data= total_sales_by_category_bodi, aes(x=Category, y=total_sales, fill=total_sales))+
+1701344860062:geom_col()+ labs(title = "Most sold categories",
+1701344860062:x = "Category",
+1701344860063:y = "Sales",
+1701344860063:fill = "Legend") + theme_minimal() + facet_wrap(~year) +
+1701344860063:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45))
+1701344879505:ggplot(data= total_sales_by_category_bodi, aes(x=Category, y=total_sales, fill=total_sales))+
+1701344879506:geom_col()+ labs(title = "Most sold categories",
+1701344879507:x = "Category",
+1701344879507:y = "Sales",
+1701344879507:fill = "Legend") + theme_minimal() + facet_wrap(~year) +
+1701344879507:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45))
+1701344942588:city_min_sales <- total_sales_by_city %>%
+1701344942589:group_by(City) %>%
+1701344942590:summarize(min_sales = min(total_sales_city)) %>%
+1701344942590:slice(1)
+1701344942772:head(city_min_sales)
+1701344988468:ggplot(data=total_sales_by_city, aes(x=year)) +
+1701344988469:geom_col(aes(y=total_sales_city, fill=total_sales_city)) +
+1701344988469:facet_wrap(~City) + labs(title = "City-wise sales (2015-18)", x="Year", y="Total Sales")
+1701345122938:city_min_sales <- total_sales_by_city %>%
+1701345122940:group_by(City) %>%
+1701345122940:filter(year==2018)
+1701345122951:summarize(min_sales = min(total_sales_city)) %>%
+1701345122952:slice(1)
+1701345161048:View(total_sales_by_city)
+1701345221739:city_min_sales <- total_sales_by_city %>%
+1701345221741:group_by(year) %>%
+1701345221741:summarize(min_sales = min(total_sales_city)) %>%
+1701345221741:slice(1)
+1701345221751:head(city_min_sales)
+1701345239034:city_min_sales <- total_sales_by_city %>%
+1701345239035:group_by(Category, year) %>%
+1701345239035:summarize(min_sales = min(total_sales_city)) %>%
+1701345239035:slice(1)
+1701345311120:city_max_sales <- total_sales_by_city %>%
+1701345311121:group_by(City) %>%
+1701345311121:summarize(max_sales = max(total_sales_city)) %>%
+1701345311121:arrange(desc(max_sales)) %>%
+1701345311121:slice(1)
+1701345311137:head(city_max_sales)
+1701346203214:city_max_sales_2018 <- total_sales_by_city %>%
+1701346203215:filter(year=2018)
+1701346214055:city_max_sales_2018 <- total_sales_by_city %>%
+1701346214056:filter(year==2018)
+1701346222881:View(city_max_sales_2018)
+1701346245179:city_sales_2018 <- total_sales_by_city %>%
+1701346245180:filter(year==2018)
+1701346245185:View(city_max_sales_2018)
+1701346269246:city_max_sales <- city_sales_2018 %>%
+1701346269248:group_by(City) %>%
+1701346269248:summarize(max_sales = max(total_sales_city)) %>%
+1701346269248:arrange(desc(max_sales)) %>%
+1701346269248:slice(1)
+1701346269261:head(city_max_sales)
+1701346294978:city_min_sales <- city_sales_2018 %>%
+1701346294979:group_by(Category, year) %>%
+1701346294980:summarize(min_sales = min(total_sales_city)) %>%
+1701346294980:slice(1)
+1701346317760:city_min_sales <- city_sales_2018 %>%
+1701346317760:group_by(City) %>%
+1701346317761:summarize(min_sales = min(total_sales_city)) %>%
+1701346317761:slice(1)
+1701346317768:head(city_min_sales)
+1701346337110:View(city_sales_2018)
+1701346381031:city_min_sales <- city_sales_2018 %>%
+1701346381032:group_by(City) %>%
+1701346381032:summarize(min_sales = min(total_sales_city)) %>%
+1701346381032:arrange(desc(min_sales)) %>%
+1701346381033:slice(1)
+1701346381050:head(city_min_sales)
+1701346397127:city_max_sales <- city_sales_2018 %>%
+1701346397128:group_by(City) %>%
+1701346397129:summarize(max_sales = max(total_sales_city)) %>%
+1701346397129:#arrange(desc(max_sales)) %>%
+1701346397129:slice(1)
+1701346397137:head(city_max_sales)
+1701346445773:city_max_sales <- city_sales_2018 %>%
+1701346445773:group_by(City) %>%
+1701346445773:summarize(max_sales = max(total_sales_city)) %>%
+1701346445774:#arrange(desc(max_sales)) %>%
+1701346445774:#slice(1)
+1701346445774:head(city_max_sales)
+1701346460496:city_max_sales <- city_sales_2018 %>%
+1701346460497:group_by(City) %>%
+1701346460497:summarize(max_sales = max(total_sales_city))
+1701346460504:#arrange(desc(max_sales)) %>%
+1701346460505:#slice(1)
+1701346460505:head(city_max_sale
+1701346465598:city_max_sales <- city_sales_2018 %>%
+1701346474810:city_max_sales <- city_sales_2018 %>%
+1701346474811:group_by(City) %>%
+1701346474811:summarize(max_sales = max(total_sales_city))
+1701346477728:head(city_max_sales)
+1701346524828:max(city_max_sales_2018$total_sales_city)
+1701346538778:min(city_max_sales_2018$total_sales_city)
+1701346668244:View(kanyakumari_data)
+1701346708641:kanyakumari_data <- city_wise_sales %>%
+1701346708641:filter(City == "Kanyakumari")
+1701346708652:ggplot(kanyakumari_data, aes(x=year, y=Sales, fill=Category)) + geom_col()+
+1701346708653:labs(title = "Sales Trends in Kanyakumari", x = "year", y = "Sales") +
+1701346708653:theme_minimal()
+1701346739479:kanyakumari_data %>%
+1701346739480:group_by(year) %>%
+1701346739480:summarise(avg_discount = mean(Discount), avg_profit = mean(Profit), avg_sales=mean(Sales))
+1701346794073:trichy_data <- city_wise_sales %>%
+1701346794076:filter(City == "Trichy")
+1701346794085:ggplot(bodi_data, aes(x=year, y=Sales, fill=Category)) + geom_col()+
+1701346794086:labs(title = "Sales Trends in Trichy", x = "year", y = "Sales") +
+1701346794086:theme_minimal()
+1701346816429:total_sales_by_category_trichy <- trichy_data %>%
+1701346816431:group_by(Category, year) %>%
+1701346816431:summarize(total_sales = sum(Sales))
+1701346816470:View(total_sales_by_category_trichy)
+1701347456173:ggplot(kanyakumari_data, aes(x=year, y=Sales, fill=Category)) + geom_col()+
+1701347456174:labs(title = "Sales Trends in Kanyakumari",caption = "Data for the years 2015-2018", x = "year", y = "Sales") +
+1701347456174:theme_minimal()
+1701347546234:kanyakumari_data %>%
+1701347546235:group_by(year) %>%
+1701347546236:summarise(avg_discount = mean(Discount), avg_profit = mean(Profit), avg_sales=mean(Sales))
+1701347674137:trichy_data <- city_wise_sales %>%
+1701347674139:filter(City == "Trichy")
+1701347674148:ggplot(bodi_data, aes(x=year, y=Sales, fill=Category)) + geom_col()+
+1701347674148:labs(title = "Sales Trends in Trichy", x = "year", y = "Sales") +
+1701347674148:theme_minimal()
+1701347903555:ggplot(data=total_sales_by_category_trichy, aes(x=Category, y=total_sales, fill=total_sales))+facet_wrap(~year)+
+1701347903556:geom_col()+labs(title="Year-wise sale trends in Trichy")+theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45))
+1701348014399:percentage_change_sales_trichy <- total_sales_by_category_trichy %>%
+1701348014400:mutate(pct_change = ((total_sales/lag(total_sales) - 1)*100))
+1701348014404:View(percentage_change_sales_trichy)
+1701348090039:percentage_change_sales_trichy <- total_sales_by_category_trichy %>%
+1701348090041:mutate(pct_change = ((total_sales/lag(total_sales) - 1)*100))
+1701348090053:View(percentage_change_sales_trichy)
+1701348192767:max_change_category <- percentage_change_sales_trichy %>%
+1701348192768:filter(pct_change == max(pct_change, na.rm = TRUE))
+1701348192775:print("Category with significant change in sales in Trichy:")
+1701348192776:print(max_change_category)
+1701348288069:ggplot(data=max_change_category, aes(x=Category))+ geom_col(aes(y=pct_change, fill=total_sales))+
+1701348288070:labs(title = "Percentage change in category-wise sales in Trichy",
+1701348288071:x = "Categories",
+1701348288071:y = "Percentage Change") + theme(axis.text.x = element_text(size = 10, hjust = 1,
+1701348288071:face="bold", angle = 45),
+1701348288071:axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701350823046:ggplot(data= total_sales_by_category_trichy, aes(x=Category, y=total_sales, fill=total_sales))+
+1701350823049:geom_col()+ labs(title = "Most sold categories in Trichy",
+1701350823049:x = "Category",
+1701350823049:y = "Sales",
+1701350823050:fill = "Legend") + theme_minimal() + facet_wrap(~year) +
+1701350823050:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45))
+1701351003971:average_discount <- sales_data %>%
+1701351003973:group_by(Category, year) %>%
+1701351003973:summarise(mean_discount=mean(Discount))
+1701351016939:head(average_discount)
+1701351073151:ggplot(data=average_discount, aes(x=year, fill=mean_discount))+
+1701351073152:geom_col(aes(y=mean_discount))+facet_wrap(~Category)+labs(title = "Average discount on categories")
+1701351268315:ggplot(data=average_discount, aes(x=Category, fill=mean_discount))+
+1701351268316:geom_col(aes(y=mean_discount)) +
+1701351268316:labs(title = "Average discount on various categories", x = "Categories",y = "Average Disocunt") +
+1701351268316:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold")) +
+1701351268317:facet_wrap(~year)
+1701351484167:ggplot(data=max_change_category, aes(x=Category))+ geom_col(aes(y=pct_change, fill=total_sales))+
+1701351484168:labs(title = "Percentage change in category-wise sales in Trichy",
+1701351484169:x = "Categories",
+1701351484169:y = "Percentage Change") + theme(axis.text.x = element_text(size = 10, hjust = 1,
+1701351484169:face="bold", angle = 45),
+1701351484169:axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701351537863:ggplot(data= total_sales_by_category_trichy, aes(x=Category, y=total_sales, fill=total_sales))+
+1701351537865:geom_col()+ labs(title = "Most sold categories in Trichy",
+1701351537865:x = "Category",
+1701351537865:y = "Sales",
+1701351537865:fill = "Legend") + theme_minimal() + facet_wrap(~year) +
+1701351537866:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45))
+1701351877162:knitr::opts_chunk$set(echo = TRUE)
+1701351877560:sales_data <- read.csv("Supermart_Grocery_Sales_Retail_Analytics_Dataset.csv")
+1701351928465:sales_data <- read.csv("Supermart_Grocery_Sales_Retail_Analytics_Dataset.csv")
+1701351997954:library(readr)
+1701351997955:Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Downloads/Supermart Grocery Sales - Retail Analytics Dataset.csv")
+1701351998242:View(Supermart_Grocery_Sales_Retail_Analytics_Dataset)
+1701352028161:sales_data <- read.csv("Supermart_Grocery_Sales_Retail_Analytics_Dataset.csv")
+1701352054042:library(readr)
+1701352054045:Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Downloads/Supermart Grocery Sales - Retail Analytics Dataset.csv")
+1701352054237:View(Supermart_Grocery_Sales_Retail_Analytics_Dataset)
+1701352093594:sales_data <- Supermart_Grocery_Sales_Retail_Analytics_Dataset
+1701352093599:head(sales_data)
+1701352093610:colnames(sales_data)
+1701352093614:str(sales_data)
+1701352164579:install.packages("tidyverse")
+1701352164585:install.packages("lubridate")
+1701352164588:install.packages("dplyr")
+1701352164591:install.packages("readr")
+1701352164594:install.packages("convertr")
+1701352164597:install.packages("stringr")
+1701352164600:#Loading Libraries
+1701352164602:library(tidyverse)
+1701352164604:library(lubridate)
+1701352164606:library(dplyr)
+1701352164608:library(readr)
+1701352164609:library(convertr)
+1701352164611:library(stringr)
+1701352169041:install.packages("lubridate")
+1701352991631:knitr::opts_chunk$set(echo = TRUE)
+1701352991886:max(city_sales_2018$total_sales_city)
+1701352991888:min(city_sales_2018$total_sales_city)
+1701353098241:trichy_data <- city_wise_sales %>%
+1701353098243:filter(City == "Trichy")
+1701406156951:trichy_data <- city_wise_sales %>%
+1701406156954:filter(City == "Trichy")
+1701406185175:trichy_data <- city_wise_sales %>%
+1701406185177:filter(City == "Trichy")
+1701511895317:trichy_data <- city_wise_sales %>%
+1701511895321:filter(City == "Trichy")
+1701511918542:trichy_data <- city_wise_sales %>%
+1701511918544:filter(City == "Trichy")
+1701512655141:trichy_data <- city_wise_sales %>%
+1701512655143:filter(City == "Trichy")
+1701512671712:trichy_data <- city_wise_sales %>%
+1701512671713:filter(City == "Trichy")
+1701512688830:trichy_data <- city_wise_sales %>%
+1701512688830:filter(City == "Trichy")
+1701512744326:View(city_wise_sales)
+1701512779329:trichy_data <- city_wise_sales %>%
+1701512779330:filter(City == "Trichy")
+1701512797779:View(trichy_data)
+1701512815181:trichy_data <- city_wise_sales %>%
+1701512815181:filter(City == "Trichy")
+1701512854510:ggplot(trichy_data, aes(x=year, y=Sales, fill=Category)) + geom_col()+
+1701512854512:labs(title = "Sales Trends in Trichy", x = "year", y = "Sales") +
+1701512854514:theme_minimal()
+1701512872006:#install.packages("tidyverse")
+1701512872008:#install.packages("lubridate")
+1701512872010:#install.packages("dplyr")
+1701512872011:#install.packages("readr")
+1701512872013:#install.packages("convertr")
+1701512872014:#install.packages("stringr")
+1701512872016:#Loading Libraries
+1701512872018:library(tidyverse)
+1701512873416:library(lubridate)
+1701512873417:library(dplyr)
+1701512873419:library(readr)
+1701512873420:library(convertr)
+1701512873428:library(stringr)
+1701512892752:trichy_data <- city_wise_sales %>%
+1701512892754:filter(City == "Trichy")
+1701512901120:ggplot(trichy_data, aes(x=year, y=Sales, fill=Category)) + geom_col()+
+1701512901122:labs(title = "Sales Trends in Trichy", x = "year", y = "Sales") +
+1701512901124:theme_minimal()
+1701512914490:total_sales_by_category_trichy <- trichy_data %>%
+1701512914492:group_by(Category, year) %>%
+1701512914494:summarize(total_sales = sum(Sales))
+1701512922088:head(total_sales_by_category_trichy)
+1701512930384:ggplot(data=total_sales_by_category_trichy, aes(x=Category, y=total_sales, fill=total_sales))+facet_wrap(~year)+
+1701512930386:geom_col()+labs(title="Year-wise sale trends in Trichy")+theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45))
+1701513429660:ggplot(data=total_sales_by_city, aes(x=year)) +
+1701513429661:geom_col(aes(y=total_sales_city, fill=total_sales_city)) +
+1701513429661:facet_wrap(~City) + labs(title = "City-wise sales (2015-18)", x="Year", y="Total Sales")
+1701513472557:ggplot(data=total_sales_by_city, aes(x=year)) +
+1701513472558:geom_col(aes(y=total_sales_city, fill=total_sales_city)) +
+1701513472559:facet_wrap(~City) + labs(title = "City-wise sales (2015-18)", x="Year", y="Total Sales")+
+1701513472559:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45))
+1701513489890:ggplot(data=total_sales_by_city, aes(x=year)) +
+1701513489891:geom_col(aes(y=total_sales_city, fill=total_sales_city)) +
+1701513489891:facet_wrap(~City) + labs(title = "City-wise sales (2015-18)", x="Year", y="Total Sales")+
+1701513489892:theme(axis.text.x = element_text(size = 7, hjust = 1, face="bold", angle = 45))
+1701513530085:ggplot(data=total_sales_by_city, aes(x=year)) +
+1701513530087:geom_col(aes(y=total_sales_city, fill=total_sales_city)) +
+1701513530088:facet_wrap(~City) + labs(title = "City-wise sales (2015-18)", x="Year", y="Total Sales")+
+1701513530090:theme(axis.text.x = element_text(size = 7, hjust = 1, face="bold", angle = 45))
+1701690654769:library(readr)
+1701690654770:Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Desktop/Supermart Grocery Sales - Retail Analytics Dataset.csv")
+1701690655044:View(Supermart_Grocery_Sales_Retail_Analytics_Dataset)
+1701690698597:library(readr)
+1701690698599:Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Desktop/Supermart Grocery Sales - Retail Analytics Dataset.csv")
+1701690698715:View(Supermart_Grocery_Sales_Retail_Analytics_Dataset)
+1701690713223:library(readr)
+1701690713225:Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Desktop/Supermart Grocery Sales - Retail Analytics Dataset.csv")
+1701690784022:library(readr)
+1701690784023:Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Downloads/Supermart Grocery Sales - Retail Analytics Dataset.csv")
+1701690784169:View(Supermart_Grocery_Sales_Retail_Analytics_Dataset)
+1701690791229:library(readr)
+1701690791231:Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Downloads/Supermart Grocery Sales - Retail Analytics Dataset.csv")
+1701690794450:library(readr)
+1701690794453:Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Downloads/Supermart Grocery Sales - Retail Analytics Dataset.csv")
+1701690915800:library(readr)
+1701690915803:Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Desktop/Supermart Grocery Sales - Retail Analytics Dataset.csv")
+1701691082801:library(readr)
+1701691082805:Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Desktop/Supermart Grocery Sales - Retail Analytics Dataset.csv")
+1701691220761:library(readr)
+1701691220765:Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Desktop/Supermart Grocery Sales - Retail Analytics Dataset.csv")
+1701691228171:library(readr)
+1701691228180:Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Desktop/Supermart Grocery Sales - Retail Analytics Dataset.csv")
+1701691257104:library(readr)
+1701691257107:Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Desktop/Supermart Grocery Sales - Retail Analytics Dataset.csv")
+1701691678826:knitr::opts_chunk$set(echo = TRUE)
+1701691679032:library(readr)
+1701691679402:Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Downloads/Supermart Grocery Sales - Retail Analytics Dataset.csv")
+1701691679835:View(Supermart_Grocery_Sales_Retail_Analytics_Dataset)
+1701691879471:knitr::opts_chunk$set(echo = TRUE)
+1701691879475:library(readr)
+1701691879476:Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Downloads/Supermart Grocery Sales - Retail Analytics Dataset.csv")
+1701691885836:library(readr)
+1701691885838:Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Downloads/Supermart Grocery Sales - Retail Analytics Dataset.csv")
+1701691911368:library(readr)
+1701691911370:Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Downloads/Supermart Grocery Sales - Retail Analytics Dataset.csv", show_col_types = FALSE)
+1701697067150:ggplot(data=profitable_category, aes(x=Category, fill=average_profit))+
+1701697067153:geom_col(aes(y=average_profit)) + facet_wrap(~year)
+1701697077647:ggplot(data=profitable_category, aes(x=Category, fill=average_profit))+
+1701697077650:geom_col(aes(y=average_profit)) + facet_wrap(~year)+
+1701697077651:labs(title = "Most Profitable category year-wise",
+1701697077653:x = "Categories",
+1701697077655:y = "Average Profit") +
+1701697077656:theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 90), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701697095621:ggplot(data=profitable_category, aes(x=Category, fill=average_profit))+
+1701697095624:geom_col(aes(y=average_profit)) + facet_wrap(~year)
+1701697417454:#install.packages("tidyverse")
+1701697417457:#install.packages("lubridate")
+1701697417458:#install.packages("dplyr")
+1701697417460:#install.packages("readr")
+1701697417462:#install.packages("convertr")
+1701697417463:#install.packages("stringr")
+1701697417465:#Loading Libraries
+1701697417466:library(tidyverse)
+1701697418075:library(lubridate)
+1701697418076:library(dplyr)
+1701697418077:library(readr)
+1701697418078:library(convertr)
+1701697418087:library(stringr)
+1701697431260:ggplot(data=profitable_category, aes(x=Category, fill=average_profit))+
+1701697431262:geom_col(aes(y=average_profit)) + facet_wrap(~year)+
+1701697431263:labs(title = "Most Profitable category year-wise",
+1701697431265:x = "Categories",
+1701697431267:y = "Average Profit") + theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 90), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1701761120018:tinytex::install_tinytex()
+1701761241206:rmarkdown::find_pandoc()
+1701762319406:knitr::opts_chunk$set(echo = TRUE)
+1701762319477:ggplot(data=sales_data) + geom_point(mapping= aes(x=Sales, y=Profit, color=Discount))+
+1701762319478:facet_wrap(~Category)+labs(title="Category-wise sales and prfoits (2015-18)")
+1701762335409:#install.packages("tidyverse")
+1701762335411:#install.packages("lubridate")
+1701762335412:#install.packages("dplyr")
+1701762335413:#install.packages("readr")
+1701762335414:#install.packages("convertr")
+1701762335415:#install.packages("stringr")
+1701762335416:#Loading Libraries
+1701762335417:library(tidyverse)
+1701762336234:library(lubridate)
+1701762336235:library(dplyr)
+1701762336236:library(readr)
+1701762336237:library(convertr)
+1701762336245:library(stringr)
+1701762342520:ggplot(data=sales_data) + geom_point(mapping= aes(x=Sales, y=Profit, color=Discount))+
+1701762342521:facet_wrap(~Category)+labs(title="Category-wise sales and prfoits (2015-18)")
+1701762357556:sales_data <- Supermart_Grocery_Sales_Retail_Analytics_Dataset
+1701762362466:library(readr)
+1701762362468:Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Downloads/Supermart Grocery Sales - Retail Analytics Dataset.csv", show_col_types = FALSE)
+1701762366952:sales_data <- Supermart_Grocery_Sales_Retail_Analytics_Dataset
+1701762366980:head(sales_data)
+1701762366990:colnames(sales_data)
+1701762366992:str(sales_data)
+1701762372881:ggplot(data=sales_data) + geom_point(mapping= aes(x=Sales, y=Profit, color=Discount))+
+1701762372882:facet_wrap(~Category)+labs(title="Category-wise sales and prfoits (2015-18)")
+1701762421317:ggplot(data=profitable_category, aes(x=Category, fill=average_profit))+
+1701762421318:geom_col(aes(y=average_profit)) + facet_wrap(~year)+
+1701762421319:labs(title = "Most Profitable category year-wise",
+1701762421320:x = "Categories",
+1701762421321:y = "Average Profit") + theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 90), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1702541751646:devtools::install_github("ddauber/r4np")
+1702541763252:install.packages(devtools)
+1702541811949:install.packages("r4np")
+1702541926825:View(sales_data_cleaned)
+1702541944838:View(sales_data)
+1702541982226:knitr::opts_chunk$set(echo = TRUE)
+1702541982371:#install.packages("tidyverse")
+1702541982373:#install.packages("lubridate")
+1702541982375:#install.packages("dplyr")
+1702541982377:#install.packages("readr")
+1702541982379:#install.packages("convertr")
+1702541982381:#install.packages("stringr")
+1702541982384:#Loading Libraries
+1702541982386:library(tidyverse)
+1702541983606:library(lubridate)
+1702541983607:library(dplyr)
+1702541983609:library(readr)
+1702541983611:library(convertr)
+1702541983625:library(stringr)
+1702541987056:library(readr)
+1702541987058:Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Downloads/Supermart Grocery Sales - Retail Analytics Dataset.csv", show_col_types = FALSE)
+1702541989376:sales_data <- Supermart_Grocery_Sales_Retail_Analytics_Dataset
+1702541989416:head(sales_data)
+1702541989555:colnames(sales_data)
+1702541989559:str(sales_data)
+1702541994046:#Making all the values in "Order Date" in a consistent format with / seprator
+1702541994049:sales_data$`Order Date`<- str_replace_all(sales_data$`Order Date`, "-", "/")
+1702541994070:#to check the changes
+1702541994072:#print(sales_data$`Order Date`)
+1702541994075:#Converting string dates into date datatype and to the format mm/dd/yy
+1702541994077:sales_data$`Order Date`= as.POSIXct(sales_data$`Order Date`, format = "%m/%d/%Y")
+1702541994161:sales_data$Order_date<-format(sales_data$`Order Date`,format = "%m/%d/%Y")
+1702541997329:#Making all the values in "Order Date" in a consistent format with / seprator
+1702541997331:sales_data$`Order Date`<- str_replace_all(sales_data$`Order Date`, "-", "/")
+1702541997351:#to check the changes
+1702541997353:#print(sales_data$`Order Date`)
+1702541997354:#Converting string dates into date datatype and to the format mm/dd/yy
+1702541997357:sales_data$`Order Date`= as.POSIXct(sales_data$`Order Date`, format = "%m/%d/%Y")
+1702541997366:sales_data$Order_date<-format(sales_data$`Order Date`,format = "%m/%d/%Y")
+1702542000798:sales_data$year<-format(sales_data$`Order Date`,format = "%Y")
+1702542017639:View(sales_data)
+1702542051388:ggplot(data=sales_data) + geom_point(mapping= aes(x=Sales, y=Profit, color=Discount))+
+1702542051390:facet_wrap(~Category)+labs(title="Category-wise sales and prfoits (2015-18)")
+1702542055499:profit_summary <- sales_data %>%
+1702542055503:group_by(year) %>%
+1702542055505:summarise(mean(Sales), mean(Profit), mean(Discount))
+1702542055534:head(profit_summary)
+1702542067367:category_sales_count %>%
+1702542067369:group_by(Category) %>%
+1702542067371:arrange(desc(n))
+1702542074396:category_sales_count <- sales_data %>%
+1702542074401:group_by(year) %>%
+1702542074405:count(Category)
+1702542080992:ggplot(data=category_sales_count, aes(x=year, y=n, group=1)) + geom_line() +
+1702542080994:geom_point() + facet_wrap(~Category) + labs(title="Frequency of sales from 2015-2018", x="Year", y="No. of orders")
+1702542101647:#install.packages("tidyverse")
+1702542101649:#install.packages("lubridate")
+1702542101651:#install.packages("dplyr")
+1702542101653:#install.packages("readr")
+1702542101654:#install.packages("convertr")
+1702542101656:#install.packages("stringr")
+1702542101658:#Loading Libraries
+1702542101660:library(tidyverse)
+1702542101663:library(lubridate)
+1702542101665:library(dplyr)
+1702542101667:library(readr)
+1702542101669:library(convertr)
+1702542101671:library(stringr)
+1702542104695:library(readr)
+1702542104697:Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Downloads/Supermart Grocery Sales - Retail Analytics Dataset.csv", show_col_types = FALSE)
+1702542108479:sales_data <- Supermart_Grocery_Sales_Retail_Analytics_Dataset
+1702542108483:head(sales_data)
+1702542108496:colnames(sales_data)
+1702542108500:str(sales_data)
+1702542128963:#Making all the values in "Order Date" in a consistent format with / seprator
+1702542128965:sales_data$`Order Date`<- str_replace_all(sales_data$`Order Date`, "-", "/")
+1702542128977:#to check the changes
+1702542128978:#print(sales_data$`Order Date`)
+1702542128981:#Converting string dates into date datatype and to the format mm/dd/yy
+1702542128983:sales_data$`Order Date`= as.POSIXct(sales_data$`Order Date`, format = "%m/%d/%Y")
+1702542129082:sales_data$Order_date<-format(sales_data$`Order Date`,format = "%m/%d/%Y")
+1702542132612:sales_data$year<-format(sales_data$`Order Date`,format = "%Y")
+1702542132625:head(sales_data)
+1702542154068:cor(sales_data$Sales, sales_data$Discount)
+1702542154072:cor(sales_data$Sales, sales_data$Profit)
+1702542156779:ggplot(data=sales_data) + geom_point(mapping= aes(x=Sales, y=Profit, color=Discount))+
+1702542156781:facet_wrap(~Category)+labs(title="Category-wise sales and prfoits (2015-18)")
+1702542159897:profit_summary <- sales_data %>%
+1702542159899:group_by(year) %>%
+1702542159902:summarise(mean(Sales), mean(Profit), mean(Discount))
+1702542159919:head(profit_summary)
+1702542162028:category_sales_count <- sales_data %>%
+1702542162030:group_by(year) %>%
+1702542162031:count(Category)
+1702542164328:category_sales_count %>%
+1702542164330:group_by(Category) %>%
+1702542164331:arrange(desc(n))
+1702542167642:ggplot(data=category_sales_count, aes(x=year, y=n, group=1)) + geom_line() +
+1702542167644:geom_point() + facet_wrap(~Category) + labs(title="Frequency of sales from 2015-2018", x="Year", y="No. of orders")
+1702542172430:ggplot(data=profitable_category, aes(x=Category, fill=average_profit))+
+1702542172433:geom_col(aes(y=average_profit)) + facet_wrap(~year)+
+1702542172435:labs(title = "Most Profitable category year-wise",
+1702542172437:x = "Categories",
+1702542172439:y = "Average Profit") + theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 90), axis.text.y = element_text(size=10, vjust=1, face="bold"))
+1702542174879:profitable_category <- sales_data %>%
+1702542174882:group_by(Category, year) %>%
+1702542174884:summarise(average_profit = mean(Profit))
+1702542180132:head(profitable_category)
+1702542209928:profitable_category <- sales_data %>%
+1702542209930:group_by(Category) %>%
+1702542209932:summarise(average_profit = mean(Profit))
+1702542227551:View(sales_data)
+1702542252007:View(sales_data)
+1702542447559:write.csv(sales_data, file = "Retail_sales_data_cleaned.csv")

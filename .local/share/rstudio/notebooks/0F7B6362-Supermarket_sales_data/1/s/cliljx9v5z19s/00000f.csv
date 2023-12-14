@@ -1,0 +1,4 @@
+"0","ggplot(data=total_sales_by_city, aes(x=year)) +"
+"0","  geom_col(aes(y=total_sales_city, fill=total_sales_city)) + "
+"0","  facet_wrap(~City) + labs(title = ""City-wise sales (2015-18)"", x=""Year"", y=""Total Sales"")+"
+"0","  theme(axis.text.x = element_text(size = 7, hjust = 1, face=""bold"", angle = 45))"

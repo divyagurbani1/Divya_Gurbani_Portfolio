@@ -1,0 +1,2 @@
+"0","trichy_data <- city_wise_sales %>% "
+"0","  filter(City == ""Trichy"")"

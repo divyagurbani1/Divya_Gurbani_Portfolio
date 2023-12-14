@@ -1,0 +1,8 @@
+"0","#Making all the values in ""Order Date"" in a consistent format with / seprator"
+"0","sales_data$`Order Date`<- str_replace_all(sales_data$`Order Date`, ""-"", ""/"")"
+"0","#to check the changes"
+"0","#print(sales_data$`Order Date`)"
+"0",""
+"0","#Converting string dates into date datatype and to the format mm/dd/yy"
+"0","sales_data$`Order Date`= as.POSIXct(sales_data$`Order Date`, format = ""%m/%d/%Y"")"
+"0","sales_data$Order_date<-format(sales_data$`Order Date`,format = ""%m/%d/%Y"")"

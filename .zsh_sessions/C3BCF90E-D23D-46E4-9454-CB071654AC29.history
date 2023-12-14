@@ -1,0 +1,34 @@
+msql -u root -p
+open -t.bash_profile
+BB$ open -t.bash_profile
+BB$ /usr/local/msql-8.2.0-macos11-arm64/bin/msql -u rool -p
+/usr/local/msql-8.2.0-macos11-arm64/bin/msql -u rool -p
+mysqladmin -u root -p shutdown
+mysqld_safe â€ƒ³skip-grant-tables &#038
+mysql -u root
+UPDATE mysql.user SET Password=PASSWORD(â€ƒ¸enter-new-password-hereâ€ƒ¹) WHERE User=â€ƒ¹rootâ€ƒ¹;UPDATE mysql.user SET Password=PASSWORD(â€ƒ¸Divya@123â€ƒ¹) WHERE User=â€ƒ¹rootâ€ƒ¹;
+UPDATE mysql.user SET Password=PASSWORD(â€ƒ¸enter-new-password-hereâ€ƒ¹) WHERE User=â€ƒ¹rootâ€ƒ¹;UPDATE mysql.user SET Password=PASSWORD(â€ƒ¸Divya@123â€ƒ¹) WHERE User=â€ƒ¹rootâ€ƒ¹;
+pg_ctl -D /usr/local/var/postgres start
+pg-ctl -Users/divya/Downloads/postgresql-16.1-1-osx.dmg/postgres start
+--command " "\\copy public.\"Practice_1\" (\"Product_Codes\", \"Price\", \"Client\", \"Client_Code\", \"Orders\", \"Total\", \"Product ID 1\", \"Product ID 2\", \"Store State\") FROM '/Users/divya/Downloads/Cosmetics Inc. - Data.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF8' QUOTE '\"' ESCAPE '''';""
+h_name
+h_hostname
+host_name
+hostname
+username
+user_name
+Is/Users
+dscl.list/Users|grep-v"^_"
+sudo mysqld_safe --skip-grant-tables
+mysql -u root
+FLUSH PRIVILEGES;
+sudo mysqld_safe --skip-grant-tables
+mysql -u root
+open -t.bash_profile
+open -t .bash_profile
+touch .bash_profile
+open -t .bash_profile
+mysql -u root -p
+mysql -u root -p
+mysql -u root -p 
+/usr/local/mysql/bin/mysql -u root -p

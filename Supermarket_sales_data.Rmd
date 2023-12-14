@@ -1,0 +1,398 @@
+---
+title: "Supermarket_sales_analysis"
+author: "Divya"
+date: "2023-11-30"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Retail Case Study 
+
+
+#### Introduction
+
+##### This project analyzes a sales database from a Supermarket in the state of Tamil Nadu. The database is downloaded from Kaggle using this [link](https://www.kaggle.com/datasets/mohamedharris/supermart-grocery-sales-retail-analytics-dataset)
+
+##### This is a historical data of sales of various categories of product this supermarket trends in.
+##### We can analyse past sales trends, impact of discount on sales and cities that needs improvement in sales.
+
+##### We will begin with installing the packages, importing the dataset and storing it in the dataframe sales_data.
+
+
+##### Installing the required packages and their libraries.
+
+```{r}
+#install.packages("tidyverse")
+#install.packages("lubridate")
+#install.packages("dplyr")
+#install.packages("readr")
+#install.packages("convertr")
+#install.packages("stringr")
+
+#Loading Libraries
+library(tidyverse)
+library(lubridate)
+library(dplyr)
+library(readr)
+library(convertr)
+library(stringr)
+```
+
+##### Loading the dataset
+
+```{r}
+library(readr)
+Supermart_Grocery_Sales_Retail_Analytics_Dataset <- read_csv("Downloads/Supermart Grocery Sales - Retail Analytics Dataset.csv", show_col_types = FALSE)
+```
+
+
+##### Understanding dataset
+
+```{r}
+sales_data <- Supermart_Grocery_Sales_Retail_Analytics_Dataset
+
+head(sales_data)
+colnames(sales_data)
+str(sales_data)
+```
+
+##### It seems like that this dataset requires cleaning. Dates in the order date column are incosistent and in the string format.
+##### Cleaning the dataset
+
+```{r}
+#Making all the values in "Order Date" in a consistent format with / seprator
+sales_data$`Order Date`<- str_replace_all(sales_data$`Order Date`, "-", "/")
+#to check the changes
+#print(sales_data$`Order Date`)
+
+#Converting string dates into date datatype and to the format mm/dd/yy
+sales_data$`Order Date`= as.POSIXct(sales_data$`Order Date`, format = "%m/%d/%Y")
+sales_data$Order_date<-format(sales_data$`Order Date`,format = "%m/%d/%Y")
+```
+
+
+##### *The new column Order_date has all dates with date datatype and in consistent format.*
+##### To analyse year-wise sales trends we will need a year column.
+
+```{r}
+sales_data$year<-format(sales_data$`Order Date`,format = "%Y")
+```
+
+##### Now that we have a clean data with consistent format, we can move towards understanding and analysing the data.
+##### Let's check if there is any impact of discount given on sales and of sales on profits.
+
+```{r}
+cor(sales_data$Sales, sales_data$Discount)
+cor(sales_data$Sales, sales_data$Profit)
+```
+##### *The correlation between sales and discount is negative which shows that increase in sales is negatively affected by discount.It is an unusual case and therefore we will explore the sales trends in detail.*
+
+##### Let's start by visualising the category-wise sales and their profits.
+```{r Chunk 8, fig.align='center'}
+ggplot(data=sales_data) + geom_point(mapping= aes(x=Sales, y=Profit, color=Discount))+
+  facet_wrap(~Category)+labs(title="Category-wise sales and prfoits (2015-18)")
+```
+
+
+
+
+##### The graphs shows that although sales and profits have increased over the course of 4 years, there is a fluctuation with Discount. In other words, discounts doesn't impact sales.
+
+
+
+##### Let's check average profits, sales and discount.
+
+```{r}
+profit_summary <- sales_data %>% 
+  group_by(year) %>% 
+  summarise(mean(Sales), mean(Profit), mean(Discount))
+head(profit_summary)
+```
+
+##### *The results show that average sales and profits have increased. However, there is a fluctuation in both metrics.This may be due change in sales of different categories.* 
+
+
+
+##### To verify this, we will analyse category-wise sales.
+
+```{r}
+category_sales_count <- sales_data %>%
+  group_by(year) %>% 
+  count(Category)
+```
+
+```{r}
+category_sales_count %>% 
+  group_by(Category) %>% 
+arrange(desc(n)) 
+```
+
+
+##### *Snacks was the most sold category in 2018.* 
+
+```{r Chunk 12, fig.align='center'}
+ggplot(data=category_sales_count, aes(x=year, y=n, group=1)) + geom_line() +
+  geom_point() + facet_wrap(~Category) + labs(title="Frequency of sales from 2015-2018", x="Year", y="No. of orders")
+```
+
+##### The above graphs show the trends in categoric sales for years 2015-18.
+##### Overall there is an increase in orders in every category.
+
+
+
+##### Now, we will check the most profitable category.
+```{r}
+profitable_category <- sales_data %>% 
+  group_by(Category, year) %>% 
+  summarise(average_profit = mean(Profit))
+```
+```{r}
+head(profitable_category)
+```
+
+```{r Chunk 15, fig.align='center'}
+ggplot(data=profitable_category, aes(x=Category, fill=average_profit))+
+  geom_col(aes(y=average_profit)) + facet_wrap(~year)+
+labs(title = "Most Profitable category year-wise",
+     x = "Categories",
+     y = "Average Profit") + theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 90), axis.text.y = element_text(size=10, vjust=1, face="bold"))  
+```
+
+
+
+
+
+##### *The figures show that eggs, meat were most profitable category in 2015, snacks joined the group in 2018.* 
+
+##### Eggs meat and fish might be profitable due to surge pricing in the industry. We don't have any information on grocery prices and hence will limit our exploration to the available data.
+
+
+
+##### Now, we will analyse sales.
+```{r}
+average_categoric_sales <- sales_data %>% 
+  group_by(Category, year) %>% 
+  summarise(average_sales=mean(Sales))
+```
+
+```{r Chunk 17, fig.align='center'}
+ggplot(data=average_categoric_sales, aes(x=year, fill=average_sales))+
+  geom_col(aes(y=average_sales))+ facet_wrap(~Category)+
+labs(title = "Trends in average sales of all categories", x = "Categories", y = "Average Sales") + 
+  theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold")) 
+
+```
+
+
+##### *The visualisation shows that although the sales have increased in the final year that is 2018, the percentage increase is relatively low.* 
+
+
+
+##### Now we will analyse cities with highest and lowest sales.
+
+```{r}
+city_wise_sales <- sales_data %>% 
+  
+  select(Profit, Sales, Category, City, year,Discount) %>% 
+  group_by(City) 
+
+total_sales_by_city <- city_wise_sales %>% 
+  group_by(City, year) %>%
+  summarize(total_sales_city = sum(Sales))
+head(total_sales_by_city) 
+```
+
+```{r Chunk 19, fig.align='center'}
+ggplot(data=total_sales_by_city, aes(x=year)) +
+  geom_col(aes(y=total_sales_city, fill=total_sales_city)) + 
+  facet_wrap(~City) + labs(title = "City-wise sales (2015-18)", x="Year", y="Total Sales")+
+  theme(axis.text.x = element_text(size = 7, hjust = 1, face="bold", angle = 45))
+```
+
+
+
+
+
+##### These graphs show that maximum sales occured in Kanyakumari while minimum sales occured in Trichy.
+
+
+```{r}
+city_sales_2018 <- total_sales_by_city %>% 
+  filter(year==2018)
+View(city_sales_2018)
+```
+```{r}
+max(city_sales_2018$total_sales_city)
+min(city_sales_2018$total_sales_city)
+```
+
+
+
+
+
+##### This confirms that maximum sales occured in Kanyakumari while minimum in Trichy.
+
+##### We will analyse trends for both Kanyakumari and Trichy for the year 2018.
+##### Creating a new dataframe for Kanyakumari
+
+```{r Chunk 22, fig.align='center'}
+kanyakumari_data <- city_wise_sales %>% 
+  filter(City == "Kanyakumari")
+
+#Plotting Kanyakumari sale trends
+
+ggplot(kanyakumari_data, aes(x=year, y=Sales, fill=Category)) + geom_col()+
+  labs(title = "Sales Trends in Kanyakumari", x = "year", y = "Sales") + 
+  theme_minimal()
+```
+
+
+
+##### Let's summarise the overall metrics
+
+```{r}
+kanyakumari_data %>% 
+  group_by(year) %>% 
+  summarise(avg_discount = mean(Discount), avg_profit = mean(Profit), avg_sales=mean(Sales))
+
+```
+
+
+
+
+#### *There is a spike in average sales for 2018 but average profits and discount have declined.* 
+##### This may mean that high value product categories were sold more compared to low value categories or the quantity sold were significantly higher. The data is inadequate to comment on that.
+
+
+##### Verifying the sales trends in Trichy
+
+```{r}
+trichy_data <- city_wise_sales %>% 
+  filter(City == "Trichy")
+```
+
+```{r Chunk 25, fig.align='center'}
+ggplot(trichy_data, aes(x=year, y=Sales, fill=Category)) + geom_col()+
+  labs(title = "Sales Trends in Trichy", x = "year", y = "Sales") + 
+  theme_minimal()
+```
+
+
+##### *There is a significant increase in sales from 2017 to 2018.*
+
+
+##### To check which category was most sold and the percentage change in sales in Trichy-
+```{r}
+total_sales_by_category_trichy <- trichy_data %>% 
+  group_by(Category, year) %>%
+  summarize(total_sales = sum(Sales))
+```
+
+```{r}
+head(total_sales_by_category_trichy)
+```
+
+
+
+##### Visualising the categoric sales
+
+```{r Chunk 28, fig.align='center'}
+ggplot(data=total_sales_by_category_trichy, aes(x=Category, y=total_sales, fill=total_sales))+facet_wrap(~year)+
+  geom_col()+labs(title="Year-wise sale trends in Trichy")+theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45))
+
+```
+
+
+
+##### *In 2018, sales for Bakery products were highest followed by food grains and fruits and veggies.*
+
+
+
+##### Now we will calculate percentage change in sales for all the categories
+
+```{r}
+percentage_change_sales_trichy <- total_sales_by_category_trichy %>% 
+  mutate(pct_change = ((total_sales/lag(total_sales) - 1)*100))
+
+```
+```{r}
+head(percentage_change_sales_trichy)
+```
+
+
+##### The dataframe has some null values. That is simply because we don't have data for year previous to 2015.
+
+##### Let's filter the category with maximum percentage change in sales.
+
+```{r}
+max_change_category <- percentage_change_sales_trichy %>%
+  filter(pct_change == max(pct_change, na.rm = TRUE))
+print("Category with significant change in sales in Trichy:")
+print(max_change_category)
+```
+
+
+
+##### Sales of bakery products were significantly higher. The graph below confirms the maximum sales of bakery products.
+```{r Chunk 32, fig.align='center'}
+ggplot(data=max_change_category, aes(x=Category))+ geom_col(aes(y=pct_change, fill=total_sales))+
+  labs(title = "Percentage change in category-wise sales in Trichy",x = "Categories",y = "Percentage Change")+
+         theme(axis.text.x = element_text(size = 10, hjust = 1,face="bold", angle = 45),
+                                         axis.text.y = element_text(size=10, vjust=1, face="bold"))        
+```
+
+
+##### There is a significant change in the sales of Bakery products. 
+##### But which category was sold the most in Trichy.
+
+```{r Chunk 33, fig.align='center'}
+ggplot(data= total_sales_by_category_trichy, aes(x=Category, y=total_sales, fill=total_sales))+
+  geom_col()+ labs(title = "Most sold categories in Trichy",
+                   x = "Category",
+                   y = "Sales",
+                   fill = "Legend") + theme_minimal() + facet_wrap(~year) + 
+  theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45))
+```
+
+
+##### *Bakery products and food grains were most sold in 2018 in Trichy.*
+
+
+##### Let's check whether this is because of large discounts.
+```{r}
+average_discount <- sales_data %>% 
+  group_by(Category, year) %>% 
+  summarise(mean_discount=mean(Discount))
+View(average_discount)
+```
+
+```{r Chunk 35, fig.align='center'}
+ggplot(data=average_discount, aes(x=Category, fill=mean_discount))+
+  geom_col(aes(y=mean_discount)) + 
+  labs(title = "Average discount on various categories", x = "Categories",y = "Average Disocunt") + 
+  theme(axis.text.x = element_text(size = 10, hjust = 1, face="bold", angle = 45), axis.text.y = element_text(size=10, vjust=1, face="bold")) + 
+  facet_wrap(~year)
+```
+
+
+##### Discount percentage on snacks has increased over the course of time while it has decreased in other categories.
+##### Increase in sales of bakery products in Trichy was due to increase in overall demand.
+##### Discounts have decreased for every category for the year 2018.
+
+
+
+#### Here are few observations after analysing the entire dataset across various categories
+
+##### 1) Increase in sales is due to increase in overall demand. 
+##### 2)Sales increased from 2015 to 2018 despite of reduction in disocunt percentages.
+##### 3) Trichy had the lowest sales in 2018. But overall sales for all the categories have significantly increased. 
+##### 4) The final verdict would be to continue with the same sales and marketing strategies with focus on high value product categories like eggs and meat. 
+##### 5) We need addtional data points like price per subcategory to analyse most profitable categories based on selling price.
+
+
+

@@ -1,0 +1,5 @@
+"0","ggplot(data=profitable_category, aes(x=Category, fill=average_profit))+"
+"0","  geom_col(aes(y=average_profit)) + facet_wrap(~year)"
+"2","Error in ggplot(data = profitable_category, aes(x = Category, fill = average_profit)) : 
+  could not find function ""ggplot""
+"

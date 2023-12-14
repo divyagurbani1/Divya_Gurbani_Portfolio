@@ -1,0 +1,10 @@
+2023-11-25 18:15:21,949: WARNING	werkzeug:	Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+2023-11-25 18:16:44,330: ERROR	pgadmin:	Could not connect to server(#1) - 'PostgreSQL 16'.
+Error: connection failed: :1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+2023-11-25 18:45:29,079: ERROR	pgadmin:	Failed to execute query (execute_scalar) for the server #1 - DB:postgres (Query-id: 4365086):
+Error Message:column "OrderID" has pseudo-type cstring
+2023-11-25 18:45:53,039: ERROR	pgadmin:	Failed to execute query (execute_scalar) for the server #1 - DB:postgres (Query-id: 5126902):
+Error Message:column "OrderID" has pseudo-type cstring
+2023-11-25 18:46:47,523: ERROR	pgadmin:	Failed to execute query (execute_scalar) for the server #1 - DB:postgres (Query-id: 1414839):
+Error Message:column "Customer_Name" has pseudo-type cstring
+2023-11-25 19:18:12,353: WARNING	werkzeug:	Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
