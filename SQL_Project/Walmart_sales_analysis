@@ -1,0 +1,28 @@
+Introduction: 
+The Walmart sales data analysis project comprehensively examines sales trends and patterns within the retail sector across three distinct cities in Myanmar. 
+Through this analysis, the aim was to delve into the intricacies of consumer behavior, regional sales variations, and market insights within Mandalay, Yangon, and Naypyitaw.
+
+Project Approach:
+Utilizing SQL as the primary tool for data manipulation and analysis, I have employed various SQL queries and data processing techniques to explore and derive meaningful insights from the dataset. 
+The dataset, contains detailed sales records, customer demographics, product categories, and geographical information. My goal was to uncover hidden correlations and trends across different cities.
+I have utilised data manipulation and definition commands to extract the required information.
+Through the application of SQL functions and conditional logic, the dataset was dissected to extract sales trends, customer preferences, seasonal variations, and regional disparities.
+
+Key Findings: 
+Consumer Behaviour - 
+1) Women buy more compared to men in all three cities.
+2) Fashion accessories is highly rated and most bought product line among women.  
+3) Normal customers bring more revenue than members.
+4) Most used payment method is cash.
+
+Product and sales trends
+1) Electronic accessories is the most selling category among all three cities and Health & Beauty is the least.
+2) Yangon has the best rated store and Home and lifestyle is the most selling category there while Fashion accesories is the least.
+3) Naypitaw had the highest sales among all three cities. 
+
+Conclusion:
+After analyzing the sales data of three distinct cities in Myanmar, it is evident that women are responsible and frequent buyers compared to men. As a marketing initiative Walmart can incentivise women customers with periodic offers.
+Normal customers bring more revenue. This indicates that there might be no or less advantage on being a member. Introducing membership perks like additonal discounts, early access to festive sale, free home delivery and engaging them through a community would motivate them to buy more frequently.
+Walmart can also introduce rewards and offers on digital payment methods to promote payment through Walmar cash as a feature in e-wallet. This will ensure more electronic payments at all the branches.
+Overall, promoting each category city-wise and offering discounts on least sold categories would enhance the sales. Implementing discounts based on customer buying pattern and converting normal customers to members by offering newly introduced membership perks would increase the walmart community.
+This would also improve the trageting of these customers for offers and sales initiatives in future.
